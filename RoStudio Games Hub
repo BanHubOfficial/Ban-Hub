@@ -223,6 +223,13 @@ loadstring(game:HttpGet('https://pastebin.com/raw/E79ZDjR6', true))()
    end,
 })
 
+local Button = OtherTab:CreateButton({
+   Name = "Chest Hero Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/ztiHXTAM', true))()
+   end,
+})
+
 local OtherSection = OtherTab:CreateSection("Race")
 
 local Button = OtherTab:CreateButton({
@@ -303,6 +310,13 @@ local Button = OtherTab:CreateButton({
    Name = "Obby But You’re on a Jetpack",
    Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/SCeUd7yD', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Obby But You’re on a Pogo Stick",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/R3LAv95v', true))()
    end,
 })
 
