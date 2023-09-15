@@ -32,7 +32,7 @@ local MainSection = MainTab:CreateSection("Player")
 
 Rayfield:Notify({
    Title = "RoStudio Presents",
-   Content = "A hub for all",
+   Content = "Script not working? callback? DM messi.4life on Discord.",
    Duration = 6.5,
    Image = nil,
    Actions = { -- Notification Buttons
@@ -230,6 +230,48 @@ loadstring(game:HttpGet('https://pastebin.com/raw/ztiHXTAM', true))()
    end,
 })
 
+local Button = OtherTab:CreateButton({
+   Name = "Sonic Speed Simulator (Win a race)",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/PZgFk3P8', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Hoverboard Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/k22zqsnh', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "YouTuber Battles Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/W2ydJMfP', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Bank Tycoon",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/n0CYJcA2', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Strong Muscle Simulator X",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/y9tYJDiP', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Merge Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/NZd3mgCp', true))()
+   end,
+})
+
 local OtherSection = OtherTab:CreateSection("Race")
 
 local Button = OtherTab:CreateButton({
@@ -278,6 +320,20 @@ local Button = OtherTab:CreateButton({
    Name = "Motorcycle Race",
    Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/aMvrfs2t', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Smurf Cat Race",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/VDEsNcLt', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Pull a Sword",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/aMnunBjj', true))()
    end,
 })
 
@@ -334,7 +390,14 @@ loadstring(game:HttpGet('https://pastebin.com/raw/fNwXE2y5', true))()
    end,
 })
 
-local OtherSection = OtherTab:CreateSection("Every Second")
+local Button = OtherTab:CreateButton({
+   Name = "Ultimate 17+ Obby",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/hCLD1Qnm', true))()
+   end,
+})
+
+local OtherSection = OtherTab:CreateSection("Every Second/How Far")
 
 local Button = OtherTab:CreateButton({
    Name = "Every Second You Get +1 Jump Power",
@@ -347,6 +410,13 @@ local Button = OtherTab:CreateButton({
    Name = "Every Second You Get +1 WalkSpeed",
    Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/D754qUY3', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "How Far Can You Slide?",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/Gp2p4QcG', true))()
    end,
 })
 
@@ -413,5 +483,12 @@ local Button = Other1Tab:CreateButton({
    Name = "BABFT Stealer",
    Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/GDA6ttRY', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "Break In 1 (Story)",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/jMKKXUkD', true))()
    end,
 })
