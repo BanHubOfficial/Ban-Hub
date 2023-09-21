@@ -272,6 +272,27 @@ loadstring(game:HttpGet('https://pastebin.com/raw/NZd3mgCp', true))()
    end,
 })
 
+local Button = OtherTab:CreateButton({
+   Name = "Crocs World Tycoon",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/wvgfcJDz', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Power Slap Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/cw9azcA4', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Car Dealership Tycoon",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/4fx4x1GR', true))()
+   end,
+})
+
 local OtherSection = OtherTab:CreateSection("Race")
 
 local Button = OtherTab:CreateButton({
@@ -397,6 +418,13 @@ loadstring(game:HttpGet('https://pastebin.com/raw/hCLD1Qnm', true))()
    end,
 })
 
+local Button = OtherTab:CreateButton({
+   Name = "Lego Obby Fun Escape",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/za3XfEXz', true))()
+   end,
+})
+
 local OtherSection = OtherTab:CreateSection("Every Second/How Far")
 
 local Button = OtherTab:CreateButton({
@@ -451,43 +479,6 @@ loadstring(game:HttpGet('https://pastebin.com/raw/ArSzH3Ah', true))()
    end,
 })
 
-local Button = Other1Tab:CreateButton({
-   Name = "BABFT Stealer",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/GDA6ttRY', true))()
-   end,
-})
-
-local Button = Other1Tab:CreateButton({
-   Name = "Break In 1 (Story)",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/jMKKXUkD', true))()
-   end,
-})
-
-local Other1Section = Other1Tab:CreateSection("Blox Fruits")
-
-local Button = Other1Tab:CreateButton({
-   Name = "Zaque Hub",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/0L9MXtaD', true))()
-   end,
-})
-
-local Button = Other1Tab:CreateButton({
-   Name = "HoHo Hub",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/MrYt0rGR', true))()
-   end,
-})
-
-local Button = Other1Tab:CreateButton({
-   Name = "BEES Hub",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/eK3MSD6i', true))()
-   end,
-})
-
 local Other1Section = Other1Tab:CreateSection("Rainbow Friends")
 
 local Button = Other1Tab:CreateButton({
@@ -524,5 +515,67 @@ local Button = Other1Tab:CreateButton({
    Name = "Ice Hub (Multiple Games)",
    Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/XKTbe5Wg', true))()
+   end,
+})
+
+local Other1Section = Other1Tab:CreateSection("Blox Fruits")
+
+local Button = Other1Tab:CreateButton({
+   Name = "HoHo Hub",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/MrYt0rGR', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "Zaque Hub",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/0L9MXtaD', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "BEES Hub",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/eK3MSD6i', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "UraniumX Hub",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/pLrsUUKT', true))()
+   end,
+})
+
+local Other1Section = Other1Tab:CreateSection("Break In")
+
+local Button = Other1Tab:CreateButton({
+   Name = "Break In 1 (Story)",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/jMKKXUkD', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "Break In 2 (Story)",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/EtED2Zfn', true))()
+   end,
+})
+
+local Other1Section = Other1Tab:CreateSection("Build a Boat")
+
+local Button = Other1Tab:CreateButton({
+   Name = "BABFT Grinder",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/ZGu59XSs', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "BABFT Stealer",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/GDA6ttRY', true))()
    end,
 })
