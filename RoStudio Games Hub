@@ -581,7 +581,7 @@ loadstring(game:HttpGet('https://pastebin.com/raw/jMKKXUkD', true))()
 local Button = Other1Tab:CreateButton({
    Name = "Break In 2 (Story)",
    Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/NDXBNdse', true))()
+loadstring(game:HttpGet("https://freenote.biz/raw/qLlMYwbVNd",true))()
    end,
 })
 
