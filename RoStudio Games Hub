@@ -108,6 +108,13 @@ loadstring(game:HttpGet('https://pastebin.com/raw/EkRTvJC4', true))()
    end,
 })
 
+local Button = MainTab:CreateButton({
+   Name = "Highlight ESP",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/7K1Jhmck', true))()
+   end,
+})
+
 local OtherTab = Window:CreateTab("UGC Limited Games", nil) -- Title, Image
 local OtherSection = OtherTab:CreateSection("Tycoons/Simulators")
 
@@ -422,6 +429,20 @@ local Button = OtherTab:CreateButton({
    Name = "Lego Obby Fun Escape",
    Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/za3XfEXz', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Skate Obby",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/1G7WF5p9', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "99% Win Easy Obby",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/MfBmCyuQ', true))()
    end,
 })
 
