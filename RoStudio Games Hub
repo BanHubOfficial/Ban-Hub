@@ -477,8 +477,6 @@ loadstring(game:HttpGet('https://pastebin.com/raw/Gp2p4QcG', true))()
 })
 
 local Other1Tab = Window:CreateTab("Games", nil) -- Title, Image
-local Other1Section = Other1Tab:CreateSection("Player")
-
 local Other1Section = Other1Tab:CreateSection("Old Games")
 
 local Button = Other1Tab:CreateButton({
