@@ -2,8 +2,8 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 
 local Window = Rayfield:CreateWindow({
-   Name = "RoStudio's Hub",
-   LoadingTitle = "RoStudio's Scripts",
+   Name = "RoStudio's Exploit Tools",
+   LoadingTitle = "RoStudio's Exploit Tools",
    LoadingSubtitle = "by RoStudio",
    ConfigurationSaving = {
       Enabled = true,
@@ -32,7 +32,7 @@ local MainSection = MainTab:CreateSection("Player")
 
 Rayfield:Notify({
    Title = "RoStudio Presents",
-   Content = "Script not working? callback? DM messi.4life on Discord.",
+   Content = "Script not working? feel free to reach out to me on Discord. You can message me at messi.4life",
    Duration = 6.5,
    Image = nil,
    Actions = { -- Notification Buttons
@@ -300,6 +300,13 @@ loadstring(game:HttpGet('https://pastebin.com/raw/4fx4x1GR', true))()
    end,
 })
 
+local Button = OtherTab:CreateButton({
+   Name = "Magnetic Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/enBQEcXa', true))()
+   end,
+})
+
 local OtherSection = OtherTab:CreateSection("Race")
 
 local Button = OtherTab:CreateButton({
@@ -453,6 +460,13 @@ loadstring(game:HttpGet('https://pastebin.com/raw/G1JEe89m', true))()
    end,
 })
 
+local Button = OtherTab:CreateButton({
+   Name = "Team Rob The Bank Escape",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/xunWLUaK', true))()
+   end,
+})
+
 local OtherSection = OtherTab:CreateSection("Every Second/How Far")
 
 local Button = OtherTab:CreateButton({
@@ -507,6 +521,13 @@ local Button = Other1Tab:CreateButton({
    Name = "Adopt Me!",
    Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/ArSzH3Ah', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "V.G Hub (140+ Games)",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/v0DUPAXK', true))()
    end,
 })
 
