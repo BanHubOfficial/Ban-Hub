@@ -8,7 +8,7 @@ local Window = Rayfield:CreateWindow({
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "RoStudio's Hub"
+      FileName = "RoStudio's Exploit Tools"
    },
    Discord = {
       Enabled = false,
@@ -31,7 +31,7 @@ local MainTab = Window:CreateTab("Player", 2484564294) -- Title, Image
 local MainSection = MainTab:CreateSection("Player")
 
 Rayfield:Notify({
-   Title = "RoStudio Presents",
+   Title = "RoStudio Games Presents",
    Content = "Script not working? feel free to reach out to me on Discord. You can message me at messi.4life",
    Duration = 6.5,
    Image = nil,
@@ -636,5 +636,23 @@ local Button = Other1Tab:CreateButton({
    Name = "Boat Stealer",
    Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/GDA6ttRY', true))()
+   end,?
+})
+
+local Other1Section = Other1Tab:CreateSection("Jailbreak")
+
+local Button = Other1Tab:CreateButton({
+   Name = "Project Auto (PC Recommended)",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/4pb6Ya1Y', true))()
+   end,
+})
+
+local Other1Section = Other1Tab:CreateSection("Shinobi Life 2")
+
+local Button = Other1Tab:CreateButton({
+   Name = "Shinobi Life 2 Script",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/NgpUShXS', true))()
    end,
 })
