@@ -32,7 +32,7 @@ local MainSection = MainTab:CreateSection("Player")
 
 Rayfield:Notify({
    Title = "RoStudio Games Presents",
-   Content = "Script not working? feel free to reach out to me on Discord. You can message me at messi.4life",
+   Content = "Scrwho",
    Duration = 6.5,
    Image = nil,
    Actions = { -- Notification Buttons
