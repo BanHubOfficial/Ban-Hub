@@ -638,12 +638,3 @@ local Button = Other1Tab:CreateButton({
 loadstring(game:HttpGet('https://pastebin.com/raw/GDA6ttRY', true))()
    end,?
 })
-
-local Other1Section = Other1Tab:CreateSection("Jailbreak")
-
-local Button = Other1Tab:CreateButton({
-   Name = "Project Auto (PC Recommended)",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/4pb6Ya1Y', true))()
-   end,
-})
