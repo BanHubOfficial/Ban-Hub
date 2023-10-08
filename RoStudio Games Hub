@@ -2,12 +2,12 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 
 local Window = Rayfield:CreateWindow({
-   Name = "ROpe",
-   LoadingTitle = "ROpe",
-   LoadingSubtitle = "ROpesssssssssssss",
+   Name = "RoStudio's Exploit Tools",
+   LoadingTitle = "RoStudio Presents Exploit Tools",
+   LoadingSubtitle = "by RoStudio Games",
    ConfigurationSaving = {
       Enabled = true,
-      FolderName = true, -- Create a custom folder for your hub/game
+      FolderName = nil, -- Create a custom folder for your hub/game
       FileName = "RoStudio's Exploit Tools"
    },
    Discord = {
@@ -31,8 +31,8 @@ local MainTab = Window:CreateTab("Player", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Player")
 
 Rayfield:Notify({
-   Title = "ROpe",
-   Content = "ROpe",
+   Title = "RoStudio Games Presents",
+   Content = "Script not working? feel free to reach out to me on Discord. You can message me at messi.4life",
    Duration = 6.5,
    Image = nil,
    Actions = { -- Notification Buttons
@@ -49,5 +49,601 @@ local Button = MainTab:CreateButton({
    Name = "Fly GUI",
    Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Speed GUI",
+   Callback = function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/QXugUKCE")))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Teleport GUI",
+   Callback = function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Infinite Jump",
+   Callback = function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/2NBDvQ73")))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Fling (Use with Fly GUI)",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Noclip",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/8fxrxv9X', true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Anti-AFK",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/EkRTvJC4', true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Highlight ESP",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/7K1Jhmck', true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Keyboard (For Mobile)",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/cVZ9teYu', true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Infiniteyield",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/M6uvCBjR', true))()
+   end,
+})
+
+local OtherTab = Window:CreateTab("UGC Limited Games", nil) -- Title, Image
+local OtherSection = OtherTab:CreateSection("Tycoons/Simulators")
+
+local Button = OtherTab:CreateButton({
+   Name = "Kitten Tycoon",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/MBN2fuH1', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Puppy Tycoon",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/CEMNiGvt', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Chest Hero Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/EiP2ZJ6v', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Mine Block Tycoon",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/TbbbJnpq', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Punch Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/j8gtHWLF', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Yeet a plane",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/TXB3UquW', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Military Tycoon",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/5fi8Fc7a', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Math Wall Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/SGM0dEcf', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Super NFL Tycoon",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/04ecYzWp', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Anime Hatchers",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/N2Cd7xTx', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Shoot Wall Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/hLqhRr6Z', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Demon Slayer War Tycoon",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/NgKN0nMx', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Apartment Tycoon",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/mZFszRyb', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Museum Tycoon",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/5eQJ4zaJ', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Pet Racer Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/E79ZDjR6', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Supermarket Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/E79ZDjR6', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Chest Hero Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/ztiHXTAM', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Sonic Speed Simulator (Win a race)",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/PZgFk3P8', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Hoverboard Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/k22zqsnh', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "YouTuber Battles Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/W2ydJMfP', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Bank Tycoon",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/n0CYJcA2', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Strong Muscle Simulator X",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/y9tYJDiP', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Merge Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/NZd3mgCp', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Crocs World Tycoon",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/wvgfcJDz', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Power Slap Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/cw9azcA4', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Car Dealership Tycoon",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/4fx4x1GR', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Magnetic Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/enBQEcXa', true))()
+   end,
+})
+
+local OtherSection = OtherTab:CreateSection("Race")
+
+local Button = OtherTab:CreateButton({
+   Name = "Race a friend",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/dpnYtkFt', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "1% FINISH",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/ChX5cPma', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Block Race",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/Vw61a4if', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Math Block Race",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/vgik8UAx', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Billy Race Revenge",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/scagjBuW', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Mushroom Race",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/2Fp76f41', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Motorcycle Race",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/aMvrfs2t', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Smurf Cat Race",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/VDEsNcLt', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Pull a Sword",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/aMnunBjj', true))()
+   end,
+})
+
+local OtherSection = OtherTab:CreateSection("Battle/Fighting")
+
+local Button = OtherTab:CreateButton({
+   Name = "Flag Wars",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/sqk7HMJ4', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Skibi Battle Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/vN9W7U2a', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Anime Battlegrounds Y",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/APHJsJMd', true))()
+   end,
+})
+
+local OtherSection = OtherTab:CreateSection("Obby/Parkour")
+
+local Button = OtherTab:CreateButton({
+   Name = "Obby But You’re on a Jetpack",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/SCeUd7yD', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Obby But You’re on a Pogo Stick",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/R3LAv95v', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Teamwork Puzzles 2 (Obby)",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/bYgFqKJm', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Save A Friend",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/fNwXE2y5', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Ultimate 17+ Obby",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/hCLD1Qnm', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Lego Obby Fun Escape",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/za3XfEXz', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Skate Obby",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/1G7WF5p9', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "99% Win Easy Obby",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/MfBmCyuQ', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Haunted Halloween Obby!",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/G1JEe89m', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Team Rob The Bank Escape",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/xunWLUaK', true))()
+   end,
+})
+
+local OtherSection = OtherTab:CreateSection("Every Second/How Far")
+
+local Button = OtherTab:CreateButton({
+   Name = "Every Second You Get +1 Jump Power",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/RnhbS0JB', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "Every Second You Get +1 WalkSpeed",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/D754qUY3', true))()
+   end,
+})
+
+local Button = OtherTab:CreateButton({
+   Name = "How Far Can You Slide?",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/Gp2p4QcG', true))()
+   end,
+})
+
+local Other1Tab = Window:CreateTab("Games", nil) -- Title, Image
+local Other1Section = Other1Tab:CreateSection("Old Games")
+
+local Button = Other1Tab:CreateButton({
+   Name = "Work at a Pizza Place",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/BH2q9Ae7', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "Natural Disaster Survival",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/tfP8AtfH', true))()
+   end,
+})
+local Other1Section = Other1Tab:CreateSection("Sharkbite 2 (Careful)")
+
+local Button = Other1Tab:CreateButton({
+   Name = "Sharkbite 2",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/h3kqT1QR', true))()
+   end,
+})
+
+local Other1Section = Other1Tab:CreateSection("Adopt Me")
+
+local Button = Other1Tab:CreateButton({
+   Name = "Adopt Me!",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/ArSzH3Ah', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "V.G Hub (140+ Games)",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/v0DUPAXK', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "Ice Hub",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/XKTbe5Wg', true))()
+   end,
+})
+
+local Other1Section = Other1Tab:CreateSection("Rainbow Friends")
+
+local Button = Other1Tab:CreateButton({
+   Name = "Rainbow Friends Chapter 1",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/n7XtVCeh', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "Rainbow Friends Chapter 2",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/XFs2rqBG', true))()
+   end,
+})
+
+local Other1Section = Other1Tab:CreateSection("Hubs for Multiple Games")
+
+local Button = Other1Tab:CreateButton({
+   Name = "HoHo Hub",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/MrYt0rGR', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "V.G Hub (140+ Games)",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/v0DUPAXK', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "Ice Hub (Multiple Games)",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/XKTbe5Wg', true))()
+   end,
+})
+
+local Other1Section = Other1Tab:CreateSection("Blox Fruits")
+
+local Button = Other1Tab:CreateButton({
+   Name = "HoHo Hub",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/MrYt0rGR', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "Zaque Hub",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/0L9MXtaD', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "BEES Hub",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/eK3MSD6i', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "UraniumX Hub",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/pLrsUUKT', true))()
+   end,
+})
+
+local Other1Section = Other1Tab:CreateSection("Break In (Story)")
+
+local Button = Other1Tab:CreateButton({
+   Name = "Break In 1 (Story)",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/jMKKXUkD', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "Break In 2 (Story)",
+   Callback = function()
+loadstring(game:HttpGet("https://freenote.biz/raw/qLlMYwbVNd",true))()
+   end,
+})
+
+local Other1Section = Other1Tab:CreateSection("Build a Boat")
+
+local Button = Other1Tab:CreateButton({
+   Name = "AFK Grinder +More Features",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/ZGu59XSs', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "Boat Stealer",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/GDA6ttRY', true))()
+   end,?
+})
+
+local Other1Section = Other1Tab:CreateSection("Jailbreak")
+
+local Button = Other1Tab:CreateButton({
+   Name = "Project Auto (PC Recommended)",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/4pb6Ya1Y', true))()
    end,
 })
