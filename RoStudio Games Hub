@@ -5,7 +5,52 @@ local Window = Library.CreateLib("RoStudio's Exploit Tools", "DarkTheme")
 local Main = Window:NewTab("Player")
 local MainSection = Main:NewSection("Player")
 
-MainSection:NewButton("Fly GUI", "Move freely in the air", function()
+MainSection:NewButton("Fly GUI", "Move freely in the air.", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+    print("Clicked")
+end)
+
+MainSection:NewButton("Speed GUI", "Be fast and not slow.", function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/QXugUKCE")))()
+    print("Clicked")
+end)
+
+MainSection:NewButton("Teleport GUI", "Teleport to a player.", function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
+    print("Clicked")
+end)
+
+MainSection:NewButton("Infinite Jump", "Jump with no cooldown.", function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/2NBDvQ73")))()
+    print("Clicked")
+end)
+
+MainSection:NewButton("Fling GUI", "Fling users while using Fly GUI.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+    print("Clicked")
+end)
+
+MainSection:NewButton("Noclip", "Go through walls and models.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/8fxrxv9X', true))()
+    print("Clicked")
+end)
+
+MainSection:NewButton("Anti-AFK", "Stay in-game longer than 20 minutes.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/EkRTvJC4', true))()
+    print("Clicked")
+end)
+
+MainSection:NewButton("Highlight ESP", "Know where almost every user is located at.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/7K1Jhmck', true))()
+    print("Clicked")
+end)
+
+MainSection:NewButton("Keyboard GUI", "A Roblox Keyboard UI for mobile users.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/cVZ9teYu', true))()
+    print("Clicked")
+end)
+
+MainSection:NewButton("Infiniteyield", "modify gameplay elements and interact with the Roblox game environment in unique ways.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/M6uvCBjR', true))()
     print("Clicked")
 end)
