@@ -57,9 +57,120 @@ end)
 
 -- GAMES
 local Games = Window:NewTab("Games")
-local GamesSection = Games:NewSection("OldGames")
+local GamesSection = Games:NewSection("Old Games")
 
-GamesSection:NewButton("Work at a Pizza Place", "Most famous game to learn how to cook.", function()
+GamesSection:NewButton("Work at a Pizza Place", "Work many roles at the same time.", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/BH2q9Ae7', true))()
+    print("Clicked")
+end)
+
+GamesSection:NewButton("Natural Disaster Survival", "Survive each round and be able to choose the map.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/tfP8AtfH', true))()
+    print("Clicked")
+end)
+
+local GamesSection = Games:NewSection("Sharkbite 2 (Careful)")
+
+GamesSection:NewButton("Shark Ripper V4", "Auto kill shark and more.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/h3kqT1QR', true))()
+    print("Clicked")
+end)
+
+local GamesSection = Games:NewSection("Adopt Me!")
+
+GamesSection:NewButton("Adopt Me!", "What you would usually do.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/ArSzH3Ah', true))()
+    print("Clicked")
+end)
+
+GamesSection:NewButton("V.G Hub (140+ Games)", "What you would usually do.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/v0DUPAXK', true))()
+    print("Clicked")
+end)
+
+GamesSection:NewButton("Ice Hub", "What you would usually do.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/XKTbe5Wg', true))()
+    print("Clicked")
+end)
+
+local GamesSection = Games:NewSection("Rainbow Friends")
+
+GamesSection:NewButton("Rainbow Friends Chapter 1", "Finish The Chapter.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/n7XtVCeh', true))()
+    print("Clicked")
+end)
+
+GamesSection:NewButton("Rainbow Friends Chapter 2", "Finish The Chapter.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/XFs2rqBG', true))()
+    print("Clicked")
+end)
+
+local GamesSection = Games:NewSection("Hubs for Multiple Games")
+
+GamesSection:NewButton("HoHo Hub", "Hub for many games.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/MrYt0rGR', true))()
+    print("Clicked")
+end)
+
+GamesSection:NewButton("V.G Hub (140+ Games)", "Hub for many games.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/v0DUPAXK', true))()
+    print("Clicked")
+end)
+
+GamesSection:NewButton("Ice Hub (Multiple Games)", "Hub for many games.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/XKTbe5Wg', true))()
+    print("Clicked")
+end)
+
+local GamesSection = Games:NewSection("Blox Fruits")
+
+GamesSection:NewButton("HoHo Hub", "Exploit for Blox Fruits.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/MrYt0rGR', true))()
+    print("Clicked")
+end)
+
+GamesSection:NewButton("Zaque Hub", "Exploit for Blox Fruits.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/0L9MXtaD', true))()
+    print("Clicked")
+end)
+
+GamesSection:NewButton("BEES Hub", "Exploit for Blox Fruits.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/pLrsUUKT', true))()
+    print("Clicked")
+end)
+
+GamesSection:NewButton("UraniumX Hub", "Exploit for Blox Fruits.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/XKTbe5Wg', true))()
+    print("Clicked")
+end)
+
+local GamesSection = Games:NewSection("Break In (Story)")
+
+GamesSection:NewButton("Break In 1 (Story)", "Exploit for Break In 1.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/jMKKXUkD', true))()
+    print("Clicked")
+end)
+
+GamesSection:NewButton("Break In 2 (Story)", "Exploit for Break In 2.", function()
+loadstring(game:HttpGet("https://freenote.biz/raw/qLlMYwbVNd",true))()
+    print("Clicked")
+end)
+
+local GamesSection = Games:NewSection("Build a Boat for treasure")
+
+GamesSection:NewButton("AFK Grinder +More Features", "Exploit for Build a Boat,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/ZGu59XSs', true))()
+    print("Clicked")
+end)
+
+GamesSection:NewButton("Boat Stealer", "Exploit for Build a Boat,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/GDA6ttRY', true))()
+    print("Clicked")
+end)
+
+local GamesSection = Games:NewSection("Jailbreak")
+
+GamesSection:NewButton("Project Auto (PC Recommended)", "Exploit for Jailbreak,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/4pb6Ya1Y', true))()
     print("Clicked")
 end)
