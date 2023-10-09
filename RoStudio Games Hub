@@ -158,7 +158,7 @@ end)
 
 local GamesSection = Games:NewSection("Build a Boat for treasure")
 
-GamesSection:NewButton("AFK Grinder +More Features", "Exploit for Build a Boat,", function()
+GamesSection:NewButton("AFK Grinder + More Features", "Exploit for Build a Boat,", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/ZGu59XSs', true))()
     print("Clicked")
 end)
@@ -172,5 +172,19 @@ local GamesSection = Games:NewSection("Jailbreak")
 
 GamesSection:NewButton("Project Auto (PC Recommended)", "Exploit for Jailbreak,", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/4pb6Ya1Y', true))()
+    print("Clicked")
+end)
+
+-- UGC
+local UGC = Window:NewTab("Limited UGC Games")
+local UGCSection = UGC:NewSection("Tycoons/Simulators")
+
+GamesSection:NewButton("Kitten Tycoon", ",", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/MBN2fuH1', true))()
+    print("Clicked")
+end)
+
+GamesSection:NewButton("Puppy Tycoon", ",", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/CEMNiGvt', true))()
     print("Clicked")
 end)
