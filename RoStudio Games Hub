@@ -1,6 +1,11 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("RoStudio's Exploit Tools", "DarkTheme")
 
+-- HOME
+local Main = Window:NewTab("Home")
+local MainSection = Main:NewSection("Home")
+Section:NewLabel("We kindly request you to notify messi.4life on Discord if you encounter any issues with the scripts. We are actively working on troubleshooting the UGC Limited Games Exploit's Tab, aiming to provide a better and seamless experience for all users. Your feedback is invaluable in this process, and we appreciate your assistance in making our platform more reliable and user-friendly.")
+
 -- MAIN
 local Main = Window:NewTab("Player")
 local MainSection = Main:NewSection("Player")
