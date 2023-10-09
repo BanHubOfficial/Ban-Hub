@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("RoStudio's Exploit Tools", "DarkTheme")
 
 -- MAIN
@@ -52,5 +52,14 @@ end)
 
 MainSection:NewButton("Infiniteyield", "modify gameplay elements and interact with the Roblox game environment in unique ways.", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/M6uvCBjR', true))()
+    print("Clicked")
+end)
+
+-- GAMES
+local Games = Window:NewTab("Games")
+local GamesSection = Games:NewSection("OldGames")
+
+GamesSection:NewButton("Work at a Pizza Place", "Most famous game to learn how to cook.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/BH2q9Ae7', true))()
     print("Clicked")
 end)
