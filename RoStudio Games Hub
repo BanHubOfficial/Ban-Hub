@@ -194,7 +194,7 @@ loadstring(game:HttpGet('https://pastebin.com/raw/TbbbJnpq', true))()
     print("Clicked")
 end)
 
-UGCSection:NewButton("Punch Simulator", ",Tycoon", function()
+UGCSection:NewButton("Punch Simulator", ",Tycoon,", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/j8gtHWLF', true))()
     print("Clicked")
 end)
@@ -214,7 +214,230 @@ loadstring(game:HttpGet('https://pastebin.com/raw/SGM0dEcf', true))()
     print("Clicked")
 end)
 
-UGCSection:NewButton("Super NFL Tycoon", ",", function()
+UGCSection:NewButton("Super NFL Tycoon", ",Tycoon", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/04ecYzWp', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Anime Hatchers", ",Simulator,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/N2Cd7xTx', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Shoot Wall Simulator", "Simulator,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/hLqhRr6Z', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Demon Slayer War Tycoon", ",Tycoon", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/NgKN0nMx', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Apartment Tycoon", ",Tycoon,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/mZFszRyb', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Museum Tycoon", "Tycoon,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/5eQJ4zaJ', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Pet Racer Simulator", ",Simulator,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/E79ZDjR6', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Supermarket Simulator", ",Simulator,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/E79ZDjR6', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Chest Hero Simulator", "Simulator,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/ztiHXTAM', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Sonic Speed Simulator (Win a race)", ",Simulator,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/PZgFk3P8', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Hoverboard Simulator", ",Simulator,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/k22zqsnh', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("YouTuber Battles Simulator", ",Simulator,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/W2ydJMfP', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Bank Tycoon", "Tycoon,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/n0CYJcA2', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Strong Muscle Simulator X", ",Simulator,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/y9tYJDiP', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Merge Simulator", ",Simulator,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/NZd3mgCp', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Crocs World Tycoon", ",Tycoon,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/wvgfcJDz', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Power Slap Simulator", "Simulator,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/cw9azcA4', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Car Dealership Tycoon", ",Tycoon,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/4fx4x1GR', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Magnetic Simulator", ",Simulator,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/enBQEcXa', true))()
+    print("Clicked")
+end)
+
+local UGCSection = UGC:NewSection("Race")
+
+UGCSection:NewButton("Race a friend", ",Race,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/dpnYtkFt', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("1% FINISH", ",Race,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/ChX5cPma', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Block Race", ",Race,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/Vw61a4if', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Math Block Race", "Race,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/vgik8UAx', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Billy Race Revenge", ",Race,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/scagjBuW', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Mushroom Race", ",Race,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/2Fp76f41', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Motorcycle Race", "Race,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/aMvrfs2t', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Smurf Cat Race", ",Race,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/VDEsNcLt', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Pull a Sword", ",Race,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/aMnunBjj', true))()
+    print("Clicked")
+end)
+
+local UGCSection = UGC:NewSection("Battle/Fighting")
+
+UGCSection:NewButton("Flag Wars", ",Battle/Fighting,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/sqk7HMJ4', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Skibi Battle Simulator", ",Battle/Fighting,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/vN9W7U2a', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Anime Battlegrounds Y", ",Battle/Fighting,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/APHJsJMd', true))()
+    print("Clicked")
+end)
+
+local UGCSection = UGC:NewSection("Obby/Parkour")
+
+UGCSection:NewButton("Obby But You’re on a Jetpack", ",Obby/Parkour,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/SCeUd7yD', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Obby But You’re on a Pogo Stick", ",Obby/Parkour,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/R3LAv95v', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Teamwork Puzzles 2 (Obby)", ",Obby/Parkour,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/bYgFqKJm', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Save A Friend", "Obby/Parkour,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/fNwXE2y5', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Ultimate 17+ Obby", ",Obby/Parkour,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/hCLD1Qnm', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Lego Obby Fun Escape", ",Obby/Parkour,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/za3XfEXz', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Skate Obby", "Obby/Parkour,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/1G7WF5p9', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("99% Win Easy Obby", ",Obby/Parkour,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/MfBmCyuQ', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Haunted Halloween Obby!", ",Obby/Parkour,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/G1JEe89m', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Team Rob The Bank Escape", ",Obby/Parkour,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/xunWLUaK', true))()
+    print("Clicked")
+end)
+
+local UGCSection = UGC:NewSection("Every Second/How Far")
+
+UGCSection:NewButton("Every Second You Get +1 Jump Power", ",Every Second,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/RnhbS0JB', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("Every Second You Get +1 WalkSpeed", ",Every Second,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/D754qUY3', true))()
+    print("Clicked")
+end)
+
+UGCSection:NewButton("How Far Can You Slide?", ",How Far,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/Gp2p4QcG', true))()
     print("Clicked")
 end)
