@@ -9,22 +9,5 @@ OrionLib:MakeNotification({
 	Time = 6.5
 })
 
-local PlayerTab = Window:MakeTab({
-	Name = "Player",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Section = PlayerTab:AddSection({
-	Name = "Player"
-})
-
-PlayerTab:AddButton({
-	Name = "Fly GUI",
-	Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
-  	end    
-})
-
 end
 OrionLib:Init()
