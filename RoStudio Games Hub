@@ -8,7 +8,7 @@ local PlayerTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-local Section = PlayerTab:AddSection({
+local PlayerSection = PlayerTab:AddSection({
 	Name = "Player"
 })
 
