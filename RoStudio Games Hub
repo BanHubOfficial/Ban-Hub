@@ -111,3 +111,13 @@ end)
 tab.newButton("Jailbreak Project Auto", "We recommend to use PC due to the script failing on mobile.", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/GDA6ttRY', true))()
 end)
+
+tab.newButton("V.G Hub (140+ Games)", "", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/v0DUPAXK', true))()
+end)
+
+tab.newButton("Ice Hub", "", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/XKTbe5Wg', true))()
+end)
+
+local tab = DrRayLibrary.newTab("UGC Limited Games", "ImageIdHere")
