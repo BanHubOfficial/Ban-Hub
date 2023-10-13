@@ -187,6 +187,11 @@ loadstring(game:HttpGet("https://polarsblade.xyz/Arctic/ArcticSUR.txt"))()
     print("Clicked")
 end)
 
+GamesSection:NewButton("V.G Hub (140+ Games)", "What you would usually do.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/v0DUPAXK', true))()
+    print("Clicked")
+end)
+
 -- UGC
 local UGC = Window:NewTab("Limited UGC Games")
 local UGCSection = UGC:NewSection("Tycoons/Simulators")
