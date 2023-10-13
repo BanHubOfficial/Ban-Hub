@@ -50,4 +50,4 @@ tab.newButton("Infiniteyield", "", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/M6uvCBjR', true))()
 end)
 
-local window = DrRayLibrary:Load("Games", "Default")
+local tab = DrRayLibrary.newTab("Games", "ImageIdHere")
