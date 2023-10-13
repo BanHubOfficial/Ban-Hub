@@ -51,3 +51,63 @@ loadstring(game:HttpGet('https://pastebin.com/raw/M6uvCBjR', true))()
 end)
 
 local tab = DrRayLibrary.newTab("Games", "ImageIdHere")
+
+tab.newButton("Work at a Pizza Place", "", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/BH2q9Ae7', true))()
+end)
+
+tab.newButton("Natural Disaster Survival", "", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/tfP8AtfH', true))()
+end)
+
+tab.newButton("Sharkbite 2", "Please be careful due to moderators banning users.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/h3kqT1QR', true))()
+end)
+
+tab.newButton("Adopt Me!", "", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/ArSzH3Ah', true))()
+end)
+
+tab.newButton("Rainbow Friends Chapter 1", "", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/n7XtVCeh', true))()
+end)
+
+tab.newButton("Rainbow Friends Chapter 2", "", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/XFs2rqBG', true))()
+end)
+
+tab.newButton("HoHo Hub", "", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/MrYt0rGR', true))()
+end)
+
+tab.newButton("Zaque Hub", "", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/0L9MXtaD', true))()
+end)
+
+tab.newButton("BEES Hub", "", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/eK3MSD6i', true))()
+end)
+
+tab.newButton("UraniumX Hub", "", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/pLrsUUKT', true))()
+end)
+
+tab.newButton("Break In 1 (Story)", "", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/jMKKXUkD', true))()
+end)
+
+tab.newButton("Break In 2 (Story)", "", function()
+loadstring(game:HttpGet("https://freenote.biz/raw/qLlMYwbVNd",true))()
+end)
+
+tab.newButton("Build a Boat (AFK Farm)", "", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/ZGu59XSs', true))()
+end)
+
+tab.newButton("Build a Boat (Boat Stealer)", "", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/GDA6ttRY', true))()
+end)
+
+tab.newButton("Jailbreak Project Auto", "We recommend to use PC due to the script failing on mobile.", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/GDA6ttRY', true))()
+end)
