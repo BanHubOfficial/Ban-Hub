@@ -1,16 +1,9 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 
-local Window = OrionLib:MakeWindow({Name = "RoStudio's Exploit Tools", HidePremium = false, SaveConfig = true, ConfigFolder = "RoStudio's Exploit Tools"})
+local window = DrRayLibrary:Load("RoStudio's Exploit Tools", "Default")
 
-local PlayerTab = Window:MakeTab({
-	Name = "Player",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
+local tab = DrRayLibrary.newTab("Player", "ImageIdHere")
 
-local PlayerSection = PlayerTab:AddSection({
-	Name = "Player"
-})
-
-end
-OrionLib:Init()
+tab.newButton("Fly GUI", "Test", function()
+    print('Hello!')
+end)
