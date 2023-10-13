@@ -177,18 +177,13 @@ end)
 
 local GamesSection = Games:NewSection("Stand Upright: Rebooted")
 
-GamesSection:NewButton("Noob Hub", "Exploit for Stand Upright: Rebooted,", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaiden00/Scripts/main/thingy"))()
+GamesSection:NewButton("Auto Lair", "Exploit for Stand Upright: Rebooted,", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/AZ46UPVX', true))()
     print("Clicked")
 end)
 
 GamesSection:NewButton("Artic", "Exploit for Stand Upright: Rebooted,", function()
 loadstring(game:HttpGet("https://polarsblade.xyz/Arctic/ArcticSUR.txt"))() 
-    print("Clicked")
-end)
-
-GamesSection:NewButton("Auto Lair", "Exploit for Stand Upright: Rebooted,", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/Scripts/main/"..game.PlaceId..".lua"))()
     print("Clicked")
 end)
 
