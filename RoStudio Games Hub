@@ -4,6 +4,50 @@ local window = DrRayLibrary:Load("RoStudio's Exploit Tools", "Default")
 
 local tab = DrRayLibrary.newTab("Player", "ImageIdHere")
 
+local mainColor = Color3.fromRGB(0, 0, 0)
+
+local secondColor = Color3.fromRGB(20, 20, 20)
+
+window:SetTheme(mainColor, secondColor)
+
 tab.newButton("Fly GUI", "", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
 end)
+
+tab.newButton("Speed GUI", "", function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/QXugUKCE")))()
+end)
+
+tab.newButton("Teleport GUI", "", function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
+end)
+
+tab.newButton("Infinite Jump", "", function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/2NBDvQ73")))()
+end)
+
+tab.newButton("Fling", "Must be used with the Fly GUI due to flinging yourself", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+end)
+
+tab.newButton("Noclip", "", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/8fxrxv9X', true))()
+end)
+
+tab.newButton("Highlight ESP", "", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/7K1Jhmck', true))()
+end)
+
+tab.newButton("Anti-AFK", "", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/EkRTvJC4', true))()
+end)
+
+tab.newButton("Keyboard", "Recommended for other Mobile Scripts", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/cVZ9teYu', true))()
+end)
+
+tab.newButton("Infiniteyield", "", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/M6uvCBjR', true))()
+end)
+
+local window = DrRayLibrary:Load("Games", "Default")
