@@ -177,13 +177,8 @@ end)
 
 local GamesSection = Games:NewSection("Stand Upright: Rebooted")
 
-GamesSection:NewButton("Moon Lair Breaker V1", "Exploit for Stand Upright: Rebooted,", function()
-loadstring(game:HttpGet('https://gist.githubusercontent.com/makssssae/ec3cffa4632960f3246117a0e175f23c/raw/3ac2ccfde2c574d3f409036116df9684c25066b5/Moon%2520Lair%2520Breaker%2520V1'))()
-    print("Clicked")
-end)
-
-GamesSection:NewButton("Artic Hub", "Exploit for Stand Upright: Rebooted,", function()
-loadstring(game:HttpGetAsync("https://polar7.wtf/Arctic/ArcticHub/Loader.txt"))()
+GamesSection:NewButton("Noob Hub", "Exploit for Stand Upright: Rebooted,", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaiden00/Scripts/main/thingy"))()
     print("Clicked")
 end)
 
