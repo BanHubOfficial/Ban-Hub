@@ -182,6 +182,16 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaiden00/Scripts/main
     print("Clicked")
 end)
 
+GamesSection:NewButton("Artic", "Exploit for Stand Upright: Rebooted,", function()
+loadstring(game:HttpGet("https://polarsblade.xyz/Arctic/ArcticSUR.txt"))() 
+    print("Clicked")
+end)
+
+GamesSection:NewButton("Auto Lair", "Exploit for Stand Upright: Rebooted,", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/Scripts/main/"..game.PlaceId..".lua"))()
+    print("Clicked")
+end)
+
 -- UGC
 local UGC = Window:NewTab("Limited UGC Games")
 local UGCSection = UGC:NewSection("Tycoons/Simulators")
