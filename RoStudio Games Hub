@@ -9,9 +9,3 @@ local mainColor = Color3.fromRGB(0, 0, 0)
 local secondColor = Color3.fromRGB(20, 20, 20)
 
 window:SetTheme(mainColor, secondColor)
-
-tab.newButton("Fly GUI", "k", function()
-loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
-end)
-
-local window = DrRayLibrary:Load("Games", "Default")
