@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("RoStudio's Exploit Tools", "DarkTheme")
 
 -- MAIN
-local Main = Window:NewTab("Player")
+local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Player")
 
 MainSection:NewButton("Fly GUI", "Move freely in the air.", function()
@@ -172,6 +172,18 @@ local GamesSection = Games:NewSection("Jailbreak")
 
 GamesSection:NewButton("Project Auto (PC Recommended)", "Exploit for Jailbreak,", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/4pb6Ya1Y', true))()
+    print("Clicked")
+end)
+
+local GamesSection = Games:NewSection("Stand Upright: Rebooted")
+
+GamesSection:NewButton("Moon Lair Breaker V1", "Exploit for Stand Upright: Rebooted,", function()
+loadstring(game:HttpGet('https://gist.githubusercontent.com/makssssae/ec3cffa4632960f3246117a0e175f23c/raw/3ac2ccfde2c574d3f409036116df9684c25066b5/Moon%2520Lair%2520Breaker%2520V1'))()
+    print("Clicked")
+end)
+
+GamesSection:NewButton("Artic Hub", "Exploit for Stand Upright: Rebooted,", function()
+loadstring(game:HttpGetAsync("https://polar7.wtf/Arctic/ArcticHub/Loader.txt"))()
     print("Clicked")
 end)
 
