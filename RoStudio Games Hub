@@ -20,7 +20,7 @@ tab.newButton("Infinite Jump", "", function()
 loadstring(game:HttpGet(("https://pastebin.com/raw/2NBDvQ73")))()
 end)
 
-tab.newButton("Fling", "Must be used with the Fly GUI due to flinging yourself", function()
+tab.newButton("Fling", "Must be used with the Fly GUI to avoid flinging yourself.", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
 end)
 
@@ -36,7 +36,7 @@ tab.newButton("Anti-AFK", "", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/EkRTvJC4', true))()
 end)
 
-tab.newButton("Keyboard", "Recommended for other Mobile Scripts", function()
+tab.newButton("Keyboard", "Recommended for use with other mobile scripts.", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/cVZ9teYu', true))()
 end)
 
@@ -54,7 +54,7 @@ tab.newButton("Natural Disaster Survival", "", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/tfP8AtfH', true))()
 end)
 
-tab.newButton("Sharkbite 2", "Please be careful due to moderators banning users.", function()
+tab.newButton("Sharkbite 2", "Please exercise caution as moderators can ban users during ban waves.", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/h3kqT1QR', true))()
 end)
 
@@ -104,6 +104,14 @@ end)
 
 tab.newButton("Jailbreak Project Auto", "We recommend to use PC due to the script failing on mobile.", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/GDA6ttRY', true))()
+end)
+
+tab.newButton("Anime Fighting Simulator X Project Nexus", "", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IkkyyDF/ProjectNexus/main/Loader.lua"))()
+end)
+
+tab.newButton("Anime Fighting Simulator X Ghosthub", "", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptRUs/Ryans/main/Ghosthub.lua"))()
 end)
 
 tab.newButton("V.G Hub (140+ Games)", "", function()
