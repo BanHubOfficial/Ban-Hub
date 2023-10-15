@@ -122,8 +122,6 @@ tab.newButton("Ice Hub", "", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/XKTbe5Wg', true))()
 end)
 
-local tab = DrRayLibrary.newTab("UGC Limited Games", "ImageIdHere")
-
 tab.newButton("Haunted Halloween Obby!", "", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/G1JEe89m', true))()
 end)
