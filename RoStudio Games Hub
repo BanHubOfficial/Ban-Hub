@@ -114,6 +114,10 @@ tab.newButton("Anime Fighting Simulator X Ghosthub", "", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptRUs/Ryans/main/Ghosthub.lua"))()
 end)
 
+tab.newButton("Thunder Z", "", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ThundarZ/Welcome/main/Main/Loader/AllGame.lua')))()
+end)
+
 tab.newButton("V.G Hub (140+ Games)", "", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/v0DUPAXK', true))()
 end)
@@ -122,4 +126,4 @@ tab.newButton("Ice Hub", "", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/XKTbe5Wg', true))()
 end)
 
-local tab = DrRayLibrary.newTab("UGC Limited Games", "ImageIdHere")
+local tab = DrRayLibrary.newTab("ULG", "ImageIdHere")
