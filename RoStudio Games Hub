@@ -123,7 +123,3 @@ loadstring(game:HttpGet('https://pastebin.com/raw/XKTbe5Wg', true))()
 end)
 
 local tab = DrRayLibrary.newTab("UGC Limited Games", "ImageIdHere")
-
-tab.newButton("Kitten Tycoon", "", function()
-loadstring(game:HttpGet('https://pastebin.com/raw/MBN2fuH1', true))()
-end)
