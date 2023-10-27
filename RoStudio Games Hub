@@ -86,8 +86,13 @@ tab.newButton("UraniumX Hub", "", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/pLrsUUKT', true))()
 end)
 
-tab.newButton("Alone Hub", "", function()
-loadstring(game:HttpGet('https://pastebin.com/M9s1bb1n', true))()
+tab.newButton("Race V4 (Blox Fruits)", "", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/FiendMainLoader", true))()
+end)
+
+tab.newButton("Max Level Test (Blox Fruits)", "", function()
+_G.Mode = "English"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
 end)
 
 tab.newButton("Break In 1 (Story)", "", function()
@@ -129,3 +134,5 @@ end)
 tab.newButton("Ice Hub", "", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/XKTbe5Wg', true))()
 end)
+
+local tab = DrRayLibrary.newTab("UGC Limiteds", "ImageIdHere")
