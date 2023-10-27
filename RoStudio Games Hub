@@ -86,6 +86,10 @@ tab.newButton("UraniumX Hub", "", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/pLrsUUKT', true))()
 end)
 
+tab.newButton("Alone Hub", "", function()
+loadstring(game:HttpGet('https://pastebin.com/M9s1bb1n', true))()
+end)
+
 tab.newButton("Break In 1 (Story)", "", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/jMKKXUkD', true))()
 end)
@@ -125,5 +129,3 @@ end)
 tab.newButton("Ice Hub", "", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/XKTbe5Wg', true))()
 end)
-
-local tab = DrRayLibrary.newTab("ULG", "ImageIdHere")
