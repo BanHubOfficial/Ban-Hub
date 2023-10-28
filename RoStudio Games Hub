@@ -99,6 +99,10 @@ tab.newButton("Blade Ball", "", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/kmmwhocare/Crazzy-Hub/main/Blade%20Ball"))()
 end)
 
+tab.newButton("Blade Ball", "", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+end)
+
 tab.newButton("Break In 1 (Story)", "", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/jMKKXUkD', true))()
 end)
