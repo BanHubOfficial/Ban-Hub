@@ -32,7 +32,7 @@ tab.newButton("Highlight ESP", "", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/7K1Jhmck', true))()
 end)
 
-tab.newButton("Anti-AFK", "", function()
+tab.newButton("Anti-AFK", "Recommended for PC.", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/EkRTvJC4', true))()
 end)
 
@@ -70,29 +70,33 @@ tab.newButton("Rainbow Friends Chapter 2", "", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/XFs2rqBG', true))()
 end)
 
-tab.newButton("HoHo Hub", "", function()
+tab.newButton("HoHo Hub", "This script was created for Blox Fruits.", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/MrYt0rGR', true))()
 end)
 
-tab.newButton("Zaque Hub", "", function()
+tab.newButton("Zaque Hub", "This script was created for Blox Fruits.", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/0L9MXtaD', true))()
 end)
 
-tab.newButton("BEES Hub", "", function()
+tab.newButton("BEES Hub", "This script was created for Blox Fruits.", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/eK3MSD6i', true))()
 end)
 
-tab.newButton("UraniumX Hub", "", function()
+tab.newButton("UraniumX Hub", "This script was created for Blox Fruits.", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/pLrsUUKT', true))()
 end)
 
-tab.newButton("Race V4 (Blox Fruits)", "", function()
+tab.newButton("Race V4", "This script was created for Blox Fruits but hasn't been tested yet.", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/FiendMainLoader", true))()
 end)
 
-tab.newButton("Max Level Test (Blox Fruits)", "", function()
+tab.newButton("Vector Hub", "This script was created for Blox Fruits.", function()
 _G.Mode = "English"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
+end)
+
+tab.newButton("Blade Ball", "", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kmmwhocare/Crazzy-Hub/main/Blade%20Ball"))()
 end)
 
 tab.newButton("Break In 1 (Story)", "", function()
@@ -131,8 +135,6 @@ tab.newButton("V.G Hub (140+ Games)", "", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/v0DUPAXK', true))()
 end)
 
-tab.newButton("Ice Hub", "", function()
+tab.newButton("Ice Hub (12+ Games)", "", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/XKTbe5Wg', true))()
 end)
-
-local tab = DrRayLibrary.newTab("UGC Limiteds", "ImageIdHere")
