@@ -81,13 +81,6 @@ loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Infiniteyield",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/M6uvCBjR', true))()
-   end,
-})
-
-local Button = MainTab:CreateButton({
    Name = "Noclip",
    Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/8fxrxv9X', true))()
@@ -105,6 +98,20 @@ local Button = MainTab:CreateButton({
    Name = "Anti-AFK",
    Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/EkRTvJC4', true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Highlight ESP",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/7K1Jhmck', true))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Infiniteyield",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/M6uvCBjR', true))()
    end,
 })
 
@@ -475,13 +482,6 @@ loadstring(game:HttpGet('https://pastebin.com/raw/ArSzH3Ah', true))()
 local Other1Section = Other1Tab:CreateSection("Blox Fruits")
 
 local Button = Other1Tab:CreateButton({
-   Name = "Zaque Hub",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/0L9MXtaD', true))()
-   end,
-})
-
-local Button = Other1Tab:CreateButton({
    Name = "HoHo Hub",
    Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/MrYt0rGR', true))()
@@ -492,6 +492,28 @@ local Button = Other1Tab:CreateButton({
    Name = "BEES Hub",
    Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/eK3MSD6i', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "Zaque Hub",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/0L9MXtaD', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "UraniumX Hub",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/pLrsUUKT', true))()
+   end,
+})
+
+local Button = Other1Tab:CreateButton({
+   Name = "Vector Hub",
+   Callback = function()
+_G.Mode = "English"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
    end,
 })
 
@@ -556,5 +578,23 @@ local Button = Other1Tab:CreateButton({
    Name = "Break In 2 (Story)",
    Callback = function()
 loadstring(game:HttpGet('https://pastebin.com/raw/EtED2Zfn', true))()
+   end,
+})
+
+local Other1Section = Other1Tab:CreateSection("Jailbreak")
+
+local Button = Other1Tab:CreateButton({
+   Name = "Project Auto (PC Recommended)",
+   Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/GDA6ttRY', true))()
+   end,
+})
+
+local Other1Section = Other1Tab:CreateSection("Blade Ball")
+
+local Button = Other1Tab:CreateButton({
+   Name = "Bedol Hub",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
    end,
 })
