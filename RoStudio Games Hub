@@ -604,6 +604,6 @@ local OtherSection = OtherTab:CreateSection("Halloween Exclusive")
 local Button = OtherTab:CreateButton({
    Name = "Roblox Trick or Treat",
    Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/NgnB1T36', true))()
+loadstring(game:HttpGet('https://pastebin.com/raw/twzYqdwB', true))()
    end,
 })
