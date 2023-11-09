@@ -602,8 +602,8 @@ loadstring(game:HttpGet('https://pastebin.com/raw/Gp2p4QcG', true))()
 local OtherSection = OtherTab:CreateSection("Instant UGC")
 
 local Button = OtherTab:CreateButton({
-   Name = "Instant",
+   Name = "My Hello Kitty Cafe",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BaconBossScript/HelloKitty/main/HelloKitty"))()
+loadstring(game:HttpGet('https://pastebin.com/raw/1nyGYF1h', true))()
    end,
 })
