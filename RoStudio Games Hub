@@ -262,7 +262,7 @@ local Other1Section = Other1Tab:CreateSection("Blade Ball")
 local Button = Other1Tab:CreateButton({
    Name = "Bedol Hub",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+loadstring(game:HttpGet('https://pastebin.com/raw/Xejf6Bf2', true))()
    end,
 })
 
@@ -271,7 +271,7 @@ local Other1Section = Other1Tab:CreateSection("Fishing Simulator")
 local Button = Other1Tab:CreateButton({
    Name = "Fishing Simulator",
    Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/reddythedev/robloxthings/main/_Loader'))()
+loadstring(game:HttpGet('https://pastebin.com/raw/8CMMZt21', true))()
    end,
 })
 
