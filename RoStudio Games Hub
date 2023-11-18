@@ -266,6 +266,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-bet
    end,
 })
 
+local Other1Section = Other1Tab:CreateSection("Fishing Simulator")
+
+local Button = Other1Tab:CreateButton({
+   Name = "Fishing Simulator",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/reddythedev/robloxthings/main/_Loader'))()
+   end,
+})
+
 local OtherTab = Window:CreateTab("UGC Limited Games", nil) -- Title, Image
 local OtherSection = OtherTab:CreateSection("Tycoons/Simulators")
 
