@@ -6,38 +6,6 @@ local MainTab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-local MainTab = Window:MakeTab({
-	Name = "Update Log",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-MainTab:AddLabel("Update 2.3")
-
-local MainTab = Window:MakeTab({
-	Name = "Credits",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local MainTab = Window:MakeTab({
-	Name = "Player",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-MainTab:AddButton({
-	Name = "Fly GUI",
-	Callback = function(loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))())
-      		print("executed")
-  	end    
-})
-
-local MainTab = Window:MakeTab({
-	Name = "Games",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
 
 end
 OrionLib:Init()
