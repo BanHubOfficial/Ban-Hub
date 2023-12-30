@@ -1,5 +1,2 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Exploit Tools", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
-
-end
-OrionLib:Init()
+local Window = OrionLib:MakeWindow({Name = "Spook Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
