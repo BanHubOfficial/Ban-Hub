@@ -1095,33 +1095,6 @@ local Main3Tab = Window:MakeTab({
 		end    
 	})
 
-local Main4Tab = Window:MakeTab({
-    Name = "Animal Simulator",
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = false
-})
-
-Main4Tab:AddButton({
-    Name = "Animal Simulator V1",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AnimalSimulator.lua"))()
-    end   
-})
-
-Main4Tab:AddButton({
-    Name = "Animal Simulator V2",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/CrowzScripts/AnimalSim/main/CrowOnTop"))()
-    end   
-})
-
-Main4Tab:AddButton({
-    Name = "Animal Simulator V3",
-    Callback = function()
-        loadstring(game:HttpGet("https://github.com/KhSaeed90/Roblox/raw/workspace/5712833750"))()
-    end   
-})
-
 OrionLib:MakeNotification({
     Name = "Welcome!",
     Content = "Appreciate it you chose us.",
