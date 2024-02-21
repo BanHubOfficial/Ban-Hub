@@ -1094,36 +1094,6 @@ local Main3Tab = Window:MakeTab({
 			end
 		end    
 	})
-
-local Main7Tab = Window:MakeTab({
-    Name = "Field Trip Z",
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = false
-})
-	local Section = Main7Tab:AddSection({
-		Name = "Items"
-	})
-	Main7Tab:AddButton({
-		Name = "Unlock Medkit",
-		Callback = function()
-			game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction:InvokeServer("PICKUP_ITEM", "MedKit")
-		end
-	})
-	Main7Tab:AddButton({
-		Name = "Unlock Donut",
-		Callback = function()
-			game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction:InvokeServer("PICKUP_ITEM", "Donut")
-		end
-	})
-	Main7Tab:AddButton({
-		Name = "Unlock Bandage",
-		Callback = function()
-			game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction:InvokeServer("PICKUP_ITEM", "Bandage")
-		end
-	})
-	local Section = Main7Tab:AddSection({
-		Name = "Heals"
-	})
 local Main4Tab = Window:MakeTab({
     Name = "Animal Simulator",
     Icon = "rbxassetid://4483345998",
