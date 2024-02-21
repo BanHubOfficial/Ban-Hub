@@ -1124,20 +1124,6 @@ local Main7Tab = Window:MakeTab({
 	local Section = Main7Tab:AddSection({
 		Name = "Heals"
 	})
-Main7Tab:AddButton({
-    Name = "Heal Everyone",
-    Callback = function()
-        for i, v in pairs(game.Players:GetPlayers()) do
-            if v.Name ~= game:GetService("Players").LocalPlayer.Name then
-                game:GetService("ReplicatedStorage").NetworkEvents.RemoteFunction:InvokeServer(
-                    "HEAL_PLAYER",
-                    v,
-                    9e9
-                )
-            end
-        end
-    end
-}}
 local Main4Tab = Window:MakeTab({
     Name = "Animal Simulator",
     Icon = "rbxassetid://4483345998",
