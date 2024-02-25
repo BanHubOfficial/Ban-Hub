@@ -12,51 +12,9 @@ MainTab:AddButton({
         loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
     end   
 })
-MainTab:AddButton({
-    Name = "Teleport GUI",
-    Callback = function()
-        loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
-    end   
-})
-MainTab:AddButton({
-    Name = "Speed GUI",
-    Callback = function()
-        loadstring(game:HttpGet(("https://pastebin.com/raw/QXugUKCE")))()
-    end   
-})
-MainTab:AddButton({
-    Name = "Infinite Jump",
-    Callback = function()
-        loadstring(game:HttpGet(("https://pastebin.com/raw/2NBDvQ73")))()
-    end   
-})
-MainTab:AddButton({
-    Name = "Highlight ESP",
-    Callback = function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/7K1Jhmck', true))()
-    end   
-})
-MainTab:AddButton({
-    Name = "Keyboard for Mobile",
-    Callback = function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/cVZ9teYu', true))()
-    end   
-})
-MainTab:AddButton({
-    Name = "Anti-AFK",
-    Callback = function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/EkRTvJC4', true))()
-    end   
-})
-MainTab:AddButton({
-    Name = "Noclip",
-    Callback = function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/8fxrxv9X', true))()
-    end   
-})
-MainTab:AddButton({
-    Name = "Infiniteyield",
-    Callback = function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/M6uvCBjR', true))()
-    end   
+OrionLib:MakeNotification({
+    Name = "Welcome!",
+    Content = "Appreciate it you chose us.",
+    Image = "rbxassetid://4483345998",
+    Time = 5
 })
