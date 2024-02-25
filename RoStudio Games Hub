@@ -137,52 +137,6 @@ Main3Tab:AddButton({
     end   
 })
 	local Section = Main3Tab:AddSection({
-		Name = "Blade Ball"
-	})
-Main3Tab:AddLabel("We've put together 3 sets of Auto Parry scripts just for you to have fun with. ")
-	local Section = Main3Tab:AddSection({
-		Name = "Auto Parry Option 1"
-	})
-Main3Tab:AddButton({
-    Name = "Auto Parry",
-    Callback = function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/WBGNanjD', true))()
-    end   
-})
-	local Section = Main3Tab:AddSection({
-		Name = "Auto Parry Option 2"
-	})
-Main3Tab:AddButton({
-    Name = "Auto Parry",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/TwilightLoader/TwilightsPublic/main/Twilights.lua"))()
-    end   
-})
-	local Section = Main3Tab:AddSection({
-		Name = "Auto Parry Option 3"
-	})
-Main3Tab:AddButton({
-    Name = "Auto Parry",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/t2391h1A"))()
-    end   
-})
-	local Section = Main3Tab:AddSection({
-		Name = "Hubs"
-	})
-Main3Tab:AddButton({
-    Name = "NOVA X",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/kyleniko/NOVA-X/main/Blade%20Ball",true))()
-    end   
-})
-Main3Tab:AddButton({
-    Name = "Bedol Hub",
-    Callback = function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/Xejf6Bf2', true))()
-    end   
-})
-	local Section = Main3Tab:AddSection({
 		Name = "Natural Disaster Survival"
 	})
 Main3Tab:AddButton({
