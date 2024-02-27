@@ -1,60 +1,60 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "RoStudio's Exploit Tools", HidePremium = false, SaveConfig = true, IntroText = "RoStudio's Exploit Tools Presents" })
-local MainTab = Window:MakeTab({
+local Tab = Window:MakeTab({
     Name = "Home",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
-MainTab:AddLabel("We are pleased that you have chosen to join us today, courtesy of RoStudio Games.")
-MainTab:AddButton({
+Tab:AddLabel("We are pleased that you have chosen to join us today, courtesy of RoStudio Games.")
+Tab:AddButton({
     Name = "Fly GUI",
     Callback = function(
         loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
     end   
 })
-MainTab:AddButton({
+Tab:AddButton({
     Name = "Teleport GUI",
     Callback = function()
         loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
     end   
 })
-MainTab:AddButton({
+Tab:AddButton({
     Name = "Speed GUI",
     Callback = function()
         loadstring(game:HttpGet(("https://pastebin.com/raw/QXugUKCE")))()
     end   
 })
-MainTab:AddButton({
+Tab:AddButton({
     Name = "Infinite Jump",
     Callback = function()
         loadstring(game:HttpGet(("https://pastebin.com/raw/2NBDvQ73")))()
     end   
 })
-MainTab:AddButton({
+Tab:AddButton({
     Name = "Highlight ESP",
     Callback = function()
         loadstring(game:HttpGet('https://pastebin.com/raw/7K1Jhmck', true))()
     end   
 })
-MainTab:AddButton({
+Tab:AddButton({
     Name = "Keyboard for Mobile",
     Callback = function()
         loadstring(game:HttpGet('https://pastebin.com/raw/cVZ9teYu', true))()
     end   
 })
-MainTab:AddButton({
+Tab:AddButton({
     Name = "Anti-AFK",
     Callback = function()
         loadstring(game:HttpGet('https://pastebin.com/raw/EkRTvJC4', true))()
     end   
 })
-MainTab:AddButton({
+Tab:AddButton({
     Name = "Noclip",
     Callback = function()
         loadstring(game:HttpGet('https://pastebin.com/raw/8fxrxv9X', true))()
     end   
 })
-MainTab:AddButton({
+Tab:AddButton({
     Name = "Infiniteyield",
     Callback = function()
         loadstring(game:HttpGet('https://pastebin.com/raw/M6uvCBjR', true))()
