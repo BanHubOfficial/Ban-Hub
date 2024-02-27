@@ -5,7 +5,6 @@ local Tab = Window:MakeTab({
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
-Tab:AddLabel("We are pleased that you have chosen to join us today, courtesy of RoStudio Games.")
 Tab:AddButton({
     Name = "Fly GUI",
     Callback = function(
