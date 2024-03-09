@@ -79,6 +79,14 @@ MainTab:AddButton({
     end   
 })
 
+MainTab:AddButton({
+    Name = "View Chatlogs",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet('https://pastebin.com/raw/stggPUBM', true))()
+    end   
+})
+
 local Main2Tab = Window:MakeTab({
     Name = "Anime Games",
     Icon = "rbxassetid://16496411242",
@@ -118,6 +126,118 @@ Main2Tab:AddButton({
     Callback = function()
         print("Button pressed")
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
+    end   
+})
+
+local Section21 = Main2Tab:AddSection({
+    Name = "Haze Piece"
+})
+
+Main2Tab:AddButton({
+    Name = "Fazium",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader"))()
+    end   
+})
+
+Main2Tab:AddButton({
+    Name = "Vector Hub",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/siradaniy/Script_HSz/main/HSz_ACS.lua"))() 
+    end   
+})
+
+local Section25 = Main2Tab:AddSection({
+    Name = "King Legacy"
+})
+
+Main2Tab:AddButton({
+    Name = "BT Project",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet('https://btteam.net/scripts-auth/', true))()
+    end   
+})
+
+Main2Tab:AddButton({
+    Name = "ZEN HUB VERSION X",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenHubTheBest/Main/main/Loader", true))()
+    end   
+})
+
+Main2Tab:AddButton({
+    Name = "WINNABLE HUB NEXT GEN",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Winnablez/Winnable/main/Loader")){}
+    end   
+})
+
+Main2Tab:AddButton({
+    Name = "Adel Hub",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AdelOnTheTop/Adel-Hub/main/Main.lua"))()
+    end   
+})
+
+local Section87 = Main2Tab:AddSection({
+    Name = "Project XL"
+})
+
+Main2Tab:AddButton({
+    Name = "Nex Hub",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader", true))()
+    end   
+})
+
+Main2Tab:AddButton({
+    Name = "Vep's Script (Key: ProjectXlIsBadd)",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/Project%20Xl%20gui"))() 
+    end   
+})
+
+Main2Tab:AddButton({
+    Name = "V.G Hub",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/Project-XL'))() 
+    end   
+})
+
+local Section78 = Main2Tab:AddSection({
+    Name = "Your Bizzare Adventure"
+})
+
+Main2Tab:AddButton({
+    Name = "Your Bizzare Adventure Hub",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Tobias020108Back/YBA-AUT/main/YBA-GUI-Rewrite.lua"))()
+    end   
+})
+
+Main2Tab:AddButton({
+    Name = "Nex Hub",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader"))()
+    end   
+})
+
+Main2Tab:AddButton({
+    Name = "YBA GUI",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MidnightKittenCat/script-idk/main/YBA.lua"))() 
     end   
 })
 
@@ -176,6 +296,18 @@ Main3Tab:AddButton({
     Callback = function()
         print("Button pressed")
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Aboahaogsigsigaivva/__Scripts/__Main/__Code/__FleeTheFacility.lua"))()
+    end   
+})
+
+local Section44 = Main3Tab:AddSection({
+    Name = "Murder Mystery 2"
+})
+
+Main3Tab:AddButton({
+    Name = "Lunar Hub",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))()
     end   
 })
 
@@ -321,10 +453,46 @@ local Main5Tab = Window:MakeTab({
     PremiumOnly = false
 })
 
+local Section = Main5Tab:AddSection({
+    Name = "Work at a Pizza Place"
+})
+
 Main5Tab:AddButton({
     Name = "Work at a Pizza Place",
     Callback = function()
         loadstring(game:HttpGet('https://pastebin.com/raw/BH2q9Ae7', true))()
+        print("Button pressed")
+    end   
+})
+
+local Section = Main5Tab:AddSection({
+    Name = "Car Dealership Tycoon"
+})
+
+Main5Tab:AddButton({
+    Name = "Astralic Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://astronomic.vercel.app"))()
+        print("Button pressed")
+    end   
+})
+
+local Section = Main5Tab:AddSection({
+    Name = "Pet Simulator 99"
+})
+
+Main5Tab:AddButton({
+    Name = "REDz Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()
+        print("Button pressed")
+    end   
+})
+
+Main5Tab:AddButton({
+    Name = "Skyhub",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SKOIXLL/RIVERHUB-SKYHUB/main/WL.lua'))();
         print("Button pressed")
     end   
 })
@@ -355,6 +523,14 @@ Main6Tab:AddButton({
     Name = "Ice Hub",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+        print("Button pressed")
+    end   
+})
+
+Main6Tab:AddButton({
+    Name = "Prodigy Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/ArSzH3Ah', true))()
         print("Button pressed")
     end   
 })
