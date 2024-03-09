@@ -1,416 +1,279 @@
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
-local Window = Rayfield:CreateWindow({
-   Name = "RoStudio's Exploit Tools",
-   LoadingTitle = "RoStudio's Exploit Tools Loading...",
-   LoadingSubtitle = "by RoStudio Games a Secret Company Group that provides exploits.",
-   ConfigurationSaving = {
-      Enabled = true,
-      FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "RoStudio's Hub"
-   },
-   Discord = {
-      Enabled = false,
-      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
-      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
-   },
-   KeySystem = false, -- Set this to true to use our key system
-   KeySettings = {
-      Title = "Untitled",
-      Subtitle = "Key System",
-      Note = "No method of obtaining the key is provided",
-      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
-      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
-      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
-   }
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "RoStudio's Exploit Tools", HidePremium = false, SaveConfig = true, IntroText = "RoStudio's Exploit Tools Presents" })
+local MainTab = Window:MakeTab({
+    Name = "Home",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
 })
-local MainTab = Window:CreateTab("Player", nil) -- Title, Image
-local MainSection = MainTab:CreateSection("Player")
-Rayfield:Notify({
-   Title = "RoStudio Presents",
-   Content = "Script not working? callback? DM jailbreaktrades on Discord.",
-   Duration = 7.5,
-   Image = nil,
-   Actions = { -- Notification Buttons
-      Ignore = {
-         Name = "Okay!",
-         Callback = function()
-         print("The user tapped Okay!")
-      end
-   },
-},
+MainTab:AddLabel("We are pleased that you have chosen to join us today, courtesy of RoStudio Games.")
+MainTab:AddButton({
+    Name = "Fly GUI",
+    Callback = function(
+        loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+    end   
 })
-local Button = MainTab:CreateButton({
-   Name = "Fly GUI",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
-   end,
+MainTab:AddButton({
+    Name = "Teleport GUI",
+    Callback = function()
+        loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
+    end   
 })
-local Button = MainTab:CreateButton({
-   Name = "Teleport GUI",
-   Callback = function()
-loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
-   end,
+MainTab:AddButton({
+    Name = "Speed GUI",
+    Callback = function()
+        loadstring(game:HttpGet(("https://pastebin.com/raw/QXugUKCE")))()
+    end   
 })
-local Button = MainTab:CreateButton({
-   Name = "Speed GUI",
-   Callback = function()
-loadstring(game:HttpGet(("https://pastebin.com/raw/QXugUKCE")))()
-   end,
+MainTab:AddButton({
+    Name = "Infinite Jump",
+    Callback = function()
+        w    end   
 })
-local Button = MainTab:CreateButton({
-   Name = "Infinite Jump",
-   Callback = function()
-loadstring(game:HttpGet(("https://pastebin.com/raw/2NBDvQ73")))()
-   end,
+MainTab:AddButton({
+    Name = "Highlight ESP",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/7K1Jhmck', true))()
+    end   
 })
-local Button = MainTab:CreateButton({
-   Name = "Fling (Use with Fly GUI)",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
-   end,
+MainTab:AddButton({
+    Name = "Keyboard for Mobile",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/cVZ9teYu', true))()
+    end   
 })
-local Button = MainTab:CreateButton({
-   Name = "Noclip",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/8fxrxv9X', true))()
-   end,
+MainTab:AddButton({
+    Name = "Anti-AFK",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/EkRTvJC4', true))()
+    end   
 })
-local Button = MainTab:CreateButton({
-   Name = "Keyboard (For Mobile)",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/cVZ9teYu', true))()
-   end,
+MainTab:AddButton({
+    Name = "Noclip",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/8fxrxv9X', true))()
+    end   
 })
-local Button = MainTab:CreateButton({
-   Name = "Anti-AFK",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/EkRTvJC4', true))()
-   end,
+MainTab:AddButton({
+    Name = "Infiniteyield",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/M6uvCBjR', true))()
+    end   
 })
-local Button = MainTab:CreateButton({
-   Name = "Highlight ESP",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/7K1Jhmck', true))()
-   end,
+local Main2Tab = Window:MakeTab({
+    Name = "Anime Games",
+    Icon = "rbxassetid://16496411242",
+    PremiumOnly = false
 })
-local Button = MainTab:CreateButton({
-   Name = "View Chatlogs",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/stggPUBM', true))()
-   end,
+	local Section = Main2Tab:AddSection({
+		Name = "Blox Fruits"
+	})
+Main2Tab:AddButton({
+    Name = "BEES Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/eK3MSD6i', true))()
+    end   
 })
-local Button = MainTab:CreateButton({
-   Name = "Infiniteyield",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/M6uvCBjR', true))()
-   end,
+Main2Tab:AddButton({
+    Name = "Zaque Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/0L9MXtaD', true))()
+    end   
 })
-local Other1Tab = Window:CreateTab("Games", nil) -- Title, Image
-local Label = Other1Tab:CreateLabel("Simulators/Tycoons")
-local Other1Section = Other1Tab:CreateSection("Work at a Pizza Place")
-local Button = Other1Tab:CreateButton({
-   Name = "Work at a Pizza Place",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/BH2q9Ae7', true))()
-   end,
+Main2Tab:AddButton({
+    Name = "Uranium X",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/pLrsUUKT', true))()
+    end   
 })
-local Other1Section = Other1Tab:CreateSection("Car Dealership Tycoon")
-local Button = Other1Tab:CreateButton({
-   Name = "Astralic Hub/Key",
-   Callback = function()
-loadstring(game:HttpGet("https://astronomic.vercel.app"))()
-   end,
+Main2Tab:AddButton({
+    Name = "Vector Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
+    end   
 })
-local Label = Other1Tab:CreateLabel("RP Based Games")
-local Other1Section = Other1Tab:CreateSection("Adopt Me!")
-local Button = Other1Tab:CreateButton({
-   Name = "Adopt Me!",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/ArSzH3Ah', true))()
-   end,
+local Main3Tab = Window:MakeTab({
+    Name = "Survival Games",
+    Icon = "rbxassetid://16496376843",
+    PremiumOnly = false
 })
-local Button = Other1Tab:CreateButton({
-   Name = "Ice Hub",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/XKTbe5Wg', true))()
-   end,
+	local Section = Main3Tab:AddSection({
+		Name = "Jailbreak"
+	})
+Main3Tab:AddButton({
+    Name = "Project Auto (PC Recommended)",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/GDA6ttRY', true))()
+    end   
 })
-local Other1Section = Other1Tab:CreateSection("Brookhaven")
-local Button = Other1Tab:CreateButton({
-   Name = "Ice Hub",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/XKTbe5Wg', true))()
-   end,
+	local Section = Main3Tab:AddSection({
+		Name = "Animal Simulator"
+	})
+Main3Tab:AddButton({
+    Name = "Animal Simulator V1",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AnimalSimulator.lua"))()
+    end   
 })
-local Label = Other1Tab:CreateLabel("Anime Games")
-local Other1Section = Other1Tab:CreateSection("Blox Fruits")
-local Button = Other1Tab:CreateButton({
-   Name = "HoHo Hub",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/MrYt0rGR', true))()
-   end,
+Main3Tab:AddButton({
+    Name = "Animal Simulator V2",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CrowzScripts/AnimalSim/main/CrowOnTop"))()
+    end   
 })
-local Button = Other1Tab:CreateButton({
-   Name = "BEES Hub",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/eK3MSD6i', true))()
-   end,
+Main3Tab:AddButton({
+    Name = "Animal Simulator V3",
+    Callback = function()
+        loadstring(game:HttpGet("https://github.com/KhSaeed90/Roblox/raw/workspace/5712833750"))()
+    end   
 })
-local Button = Other1Tab:CreateButton({
-   Name = "Zaque Hub",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/0L9MXtaD', true))()
-   end,
+	local Section = Main3Tab:AddSection({
+		Name = "Flee The Facility"
+	})
+Main3Tab:AddButton({
+    Name = "Flee The Facility",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Aboahaogsigsigaivva/__Scripts/__Main/__Code/__FleeTheFacility.lua"))()
+    end   
 })
-local Button = Other1Tab:CreateButton({
-   Name = "UraniumX Hub",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/pLrsUUKT', true))()
-   end,
+	local Section = Main3Tab:AddSection({
+		Name = "Blade Ball"
+	})
+Main3Tab:AddLabel("We've put together 3 sets of Auto Parry scripts just for you to have fun with. ")
+	local Section = Main3Tab:AddSection({
+		Name = "Auto Parry Option 1"
+	})
+Main3Tab:AddButton({
+    Name = "Auto Parry",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/WBGNanjD', true))()
+    end   
 })
-local Button = Other1Tab:CreateButton({
-   Name = "Vector Hub",
-   Callback = function()
-_G.Mode = "English"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
-   end,
+	local Section = Main3Tab:AddSection({
+		Name = "Auto Parry Option 2"
+	})
+Main3Tab:AddButton({
+    Name = "Auto Parry",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/TwilightLoader/TwilightsPublic/main/Twilights.lua"))()
+    end   
 })
-local Other1Section = Other1Tab:CreateSection("Haze Piece")
-local Button = Other1Tab:CreateButton({
-   Name = "Fazium",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader"))()
-   end,
+	local Section = Main3Tab:AddSection({
+		Name = "Auto Parry Option 3"
+	})
+Main3Tab:AddButton({
+    Name = "Auto Parry",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/t2391h1A"))()
+    end   
 })
-local Button = Other1Tab:CreateButton({
-   Name = "Vector Hub",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/siradaniy/Script_HSz/main/HSz_ACS.lua"))() 
-   end,
+	local Section = Main3Tab:AddSection({
+		Name = "Hubs"
+	})
+Main3Tab:AddButton({
+    Name = "NOVA X",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kyleniko/NOVA-X/main/Blade%20Ball",true))()
+    end   
 })
-local Other1Section = Other1Tab:CreateSection("Project XL")
-local Button = Other1Tab:CreateButton({
-   Name = "Nex Hub",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader", true))()
-   end,
+Main3Tab:AddButton({
+    Name = "Bedol Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/Xejf6Bf2', true))()
+    end   
 })
-local Button = Other1Tab:CreateButton({
-   Name = "Vep's Script (Key: ProjectXlIsBadd)",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/Project%20Xl%20gui"))()
-   end,
+	local Section = Main3Tab:AddSection({
+		Name = "Natural Disaster Survival"
+	})
+Main3Tab:AddButton({
+    Name = "Natural Disaster Survival V1",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/tfP8AtfH', true))()
+    end   
 })
-local Button = Other1Tab:CreateButton({
-   Name = "V.G Hub",
-   Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/Project-XL'))()
-   end,
+Main3Tab:AddButton({
+    Name = "Natural Disaster Survival V2",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SmartModBoy/VortexAblity/main/SV'))()
+    end   
 })
-local Other1Section = Other1Tab:CreateSection("Your Bizzare Adventure")
-local Button = Other1Tab:CreateButton({
-   Name = "Your Bizzare Adventure Hub",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Tobias020108Back/YBA-AUT/main/YBA-GUI-Rewrite.lua"))() 
-   end,
+Main3Tab:AddButton({
+    Name = "Natural Disaster Survival V3",
+    Callback = function()
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/SIX-MENU/SIX-HUB-NATURAL-DESASTRE")()
+    end   
 })
-local Button = Other1Tab:CreateButton({
-   Name = "Nex Hub",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader"))()
-   end,
+local Main4Tab = Window:MakeTab({
+    Name = "Stories",
+    Icon = "rbxassetid://164965053941",
+    PremiumOnly = false
 })
-local Button = Other1Tab:CreateButton({
-   Name = "YBA GUI",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MidnightKittenCat/script-idk/main/YBA.lua"))()
-   end,
+	local Section = Main4Tab:AddSection({
+		Name = "Break In"
+	})
+Main4Tab:AddButton({
+    Name = "Break In",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/jMKKXUkD', true))()
+    end   
 })
-local Button = Other1Tab:CreateButton({
-   Name = "Your Bizarre Adventure Hub",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zakater5/LuaRepo/main/YBA/v3.lua"))()
-   end,
+Main4Tab:AddButton({
+    Name = "Break In 2",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RoStudioGames/RoStudio-Games-Hub/main/RoStudio's%20Break%20In%202%20Exploit%20Tools"))()
+    end   
 })
-local Other1Section = Other1Tab:CreateSection("King Legacy")
-local Button = Other1Tab:CreateButton({
-   Name = "BT Project",
-   Callback = function()
-loadstring(game:HttpGet('https://btteam.net/scripts-auth/', true))()
-   end,
+	local Section = Main4Tab:AddSection({
+		Name = "Rainbow Friends"
+	})
+Main4Tab:AddButton({
+    Name = "Rainbow Friends Chapter 1",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/n7XtVCeh', true))()
+    end   
 })
-local Button = Other1Tab:CreateButton({
-   Name = "ZEN HUB VERSION X",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenHubTheBest/Main/main/Loader", true))()
-   end,
+Main4Tab:AddButton({
+    Name = "Rainbow Friends Chapter 2",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/XFs2rqBG', true))()
+    end   
 })
-local Button = Other1Tab:CreateButton({
-   Name = "WINNABLE HUB NEXT GEN",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Winnablez/Winnable/main/Loader")){}
-   end,
+local Main5Tab = Window:MakeTab({
+    Name = "Simulators/Tycoons Games",
+    Icon = "rbxassetid://16496435245",
+    PremiumOnly = false
 })
-local Button = Other1Tab:CreateButton({
-   Name = "Adel Hub",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AdelOnTheTop/Adel-Hub/main/Main.lua"))()
-   end,
+Main5Tab:AddButton({
+    Name = "Work at a Pizza Place",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/BH2q9Ae7', true))()
+    end   
 })
-local Label = Other1Tab:CreateLabel("Stories")
-local Other1Section = Other1Tab:CreateSection("Rainbow Friends")
-local Button = Other1Tab:CreateButton({
-   Name = "Rainbow Friends Chapter 1",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/n7XtVCeh', true))()
-   end,
+local Main6Tab = Window:MakeTab({
+    Name = "RP Games",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
 })
-local Button = Other1Tab:CreateButton({
-   Name = "Rainbow Friends Chapter 2",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/XFs2rqBG', true))()
-   end,
+	local Section = Main6Tab:AddSection({
+		Name = "Brookhaven"
+	})
+Main6Tab:AddButton({
+    Name = "Ice Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+    end   
 })
-local Other1Section = Other1Tab:CreateSection("Break In")
-local Button = Other1Tab:CreateButton({
-   Name = "Break In 1 (Story)",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/jMKKXUkD', true))()
-   end,
+	local Section = Main6Tab:AddSection({
+		Name = "Adopt Me!"
+	})
+Main6Tab:AddButton({
+    Name = "Ice Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+    end   
 })
-local Button = Other1Tab:CreateButton({
-   Name = "Break In 2 (Story)",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/EtED2Zfn', true))()
-   end,
-})
-local Other1Section = Other1Tab:CreateSection("Field Trip Z")
-local Label = Other1Tab:CreateLabel("Hubs in general")
-local Button = Other1Tab:CreateButton({
-   Name = "HoHo Hub",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/MrYt0rGR', true))()
-   end,
-})
-local Button = Other1Tab:CreateButton({
-   Name = "V.G Hub (140+ Games)",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/v0DUPAXK', true))()
-   end,
-})
-local Button = Other1Tab:CreateButton({
-   Name = "Ice Hub (Multiple Games)",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/XKTbe5Wg', true))()
-   end,
-})
-local Label = Other1Tab:CreateLabel("Survival")
-local Label = Other1Tab:CreateLabel("Jailbreak")
-local Button = Other1Tab:CreateButton({
-   Name = "Project Auto (PC Recommended)",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/GDA6ttRY', true))()
-   end,
-})
-local Label = Other1Tab:CreateLabel("Blade Ball")
-local Other1Section = Other1Tab:CreateSection("Auto Parry Option 1")
-local Button = Other1Tab:CreateButton({
-   Name = "Auto Parry",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/WBGNanjD', true))()
-   end,
-})
-local Other1Section = Other1Tab:CreateSection("Auto Parry Option 2")
-local Button = Other1Tab:CreateButton({
-   Name = "Auto Parry",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TwilightLoader/TwilightsPublic/main/Twilights.lua"))()
-   end,
-})
-local Other1Section = Other1Tab:CreateSection("Auto Parry Option 3")
-local Button = Other1Tab:CreateButton({
-   Name = "Auto Parry",
-   Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/t2391h1A"))()
-   end,
-})
-local Other1Section = Other1Tab:CreateSection("Hubs")
-local Button = Other1Tab:CreateButton({
-   Name = "Bedol Hub",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
-   end,
-})
-local Button = Other1Tab:CreateButton({
-   Name = "NOVA X",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/kyleniko/NOVA-X/main/Blade%20Ball",true))()
-   end,
-})
-local Label = Other1Tab:CreateLabel("Natural Disaster Survival")
-local Button = Other1Tab:CreateButton({
-   Name = "Natural Disaster Survival V1",
-   Callback = function()
-loadstring(game:HttpGet('https://pastebin.com/raw/tfP8AtfH', true))()
-   end,
-})
-local Button = Other1Tab:CreateButton({
-   Name = "Natural Disaster Survival V2",
-   Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/SmartModBoy/VortexAblity/main/SV'))()
-   end,
-})
-local Button = Other1Tab:CreateButton({
-   Name = "Natural Disaster Survival V3",
-   Callback = function()
-loadstring(game:HttpGet"https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/SIX-MENU/SIX-HUB-NATURAL-DESASTRE")()
-   end,
-})
-local Label = Other1Tab:CreateLabel("Animal Simulator")
-local Button = Other1Tab:CreateButton({
-   Name = "Animal Simulator V1",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AnimalSimulator.lua"))()
-   end,
-})
-local Button = Other1Tab:CreateButton({
-   Name = "Animal Simulator V2",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CrowzScripts/AnimalSim/main/CrowOnTop"))()
-   end,
-})
-local Button = Other1Tab:CreateButton({
-   Name = "Animal Simulator V3",
-   Callback = function()
-loadstring(game:HttpGet("https://github.com/KhSaeed90/Roblox/raw/workspace/5712833750"))()
-   end,
-})
-local Other1Section = Other1Tab:CreateSection("Pet Simulator 99")
-local Button = Other1Tab:CreateButton({
-   Name = "REDz Hub",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()
-   end,
-})
-local Other1Section = Other1Tab:CreateSection("Key")
-local Button = Other1Tab:CreateButton({
-   Name = "Skyhub",
-   Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/SKOIXLL/RIVERHUB-SKYHUB/main/WL.lua'))();
-   end,
-})
-local Label = Other1Tab:CreateLabel("Flee The Facility")
-local Button = Other1Tab:CreateButton({
-   Name = "Flee The Facility",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Aboahaogsigsigaivva/__Scripts/__Main/__Code/__FleeTheFacility.lua"))()
-   end,
-})
-local Label = Other1Tab:CreateLabel("Murder Mystery 2")
-local Button = Other1Tab:CreateButton({
-   Name = "Lunar Hub",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))()
-   end,
+OrionLib:MakeNotification({
+    Name = "Welcome!",
+    Content = "Appreciate it you chose us.",
+    Image = "rbxassetid://4483345998",
+    Time = 5
 })
