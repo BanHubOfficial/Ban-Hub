@@ -579,6 +579,26 @@ Main6Tab:AddButton({
     end   
 })
 
+local Section = Main6Tab:AddSection({
+    Name = "Total Roblox Drama"
+})
+
+Main6Tab:AddButton({
+    Name = "Syn's Scripts",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kureu/Roblox-T.R.D-Camp-Script/main/Roblox%20T.R.D%20Camp%20Script"))();
+        print("Button pressed")
+    end   
+})
+
+Main6Tab:AddButton({
+    Name = "Vyra",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kureu/Roblox-T.R.D-Camp-Script/main/Roblox%20T.R.D%20Camp%20Script"))();
+        print("Button pressed")
+    end   
+})
+
 OrionLib:MakeNotification({
     Name = "Welcome!",
     Content = "Appreciate it you chose us.",
