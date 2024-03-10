@@ -401,6 +401,50 @@ Main3Tab:AddButton({
     end   
 })
 
+local Section2 = Main3Tab:AddSection({
+    Name = "Build a Boat for Treasure"
+})
+
+Main3Tab:AddButton({
+    Name = "Quartyz X Mukuro",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")() 
+    end   
+})
+
+Main3Tab:AddButton({
+    Name = "SweatDestroyer",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Tropxzz/SweatDestroyer/main/MainOperator.lua", true))()
+    end   
+})
+
+Main3Tab:AddButton({
+    Name = "BABFT (Many Tabs)",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ExyXyz/ExyGantenk/main/ExyBABFT"))()
+    end   
+})
+
+Main3Tab:AddButton({
+    Name = "Parmesan Hub",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/RawParmesan/Parmesan-Hub/main/Loader"),true))()
+    end   
+})
+
+Main3Tab:AddButton({
+    Name = "Farming & More",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGetAsync("https://gitlab.com/vugiakhiem2106/Universal/-/raw/main/ScriptLoader.lua"))()
+    end   
+})
+
 local Main4Tab = Window:MakeTab({
     Name = "Stories",
     Icon = "rbxassetid://164965053941",
