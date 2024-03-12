@@ -299,6 +299,14 @@ Main3Tab:AddButton({
     end   
 })
 
+Main3Tab:AddButton({
+    Name = "Haxhell Hub (key)",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/haxhell/roblox-scripts/main/flee-the-facility.lua", true))()
+    end   
+})
+
 local Section44 = Main3Tab:AddSection({
     Name = "Murder Mystery 2"
 })
@@ -308,6 +316,14 @@ Main3Tab:AddButton({
     Callback = function()
         print("Button pressed")
         loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))()
+    end   
+})
+
+Main3Tab:AddButton({
+    Name = "Haxhell Hub (key)",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/haxhell/roblox-scripts/main/murder-mystery-2.lua", true))()
     end   
 })
 
@@ -445,6 +461,30 @@ Main3Tab:AddButton({
     end   
 })
 
+local Section3 = Main3Tab:AddSection({
+    Name = "Hide and Seek Extreme"
+})
+
+Main3Tab:AddButton({
+    Name = "Haxhell Hub (key)",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/haxhell/roblox-scripts/main/hide-and-seek-extreme.lua", true))()
+    end   
+})
+
+local Section3 = Main3Tab:AddSection({
+    Name = "Slap Battles"
+})
+
+Main3Tab:AddButton({
+    Name = "Haxhell Hub (key)",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/haxhell/roblox-scripts/main/slap-battles.lua", true))()
+    end   
+})
+
 local Main4Tab = Window:MakeTab({
     Name = "Stories",
     Icon = "rbxassetid://164965053941",
@@ -541,6 +581,26 @@ Main5Tab:AddButton({
     end   
 })
 
+local Section = Main5Tab:AddSection({
+    Name = "Fishing Simulator"
+})
+
+Main5Tab:AddButton({
+    Name = "Haxhell Hub (key)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/haxhell/roblox-scripts/main/fishing-simulator.lua", true))()
+        print("Button pressed")
+    end   
+})
+
+Main5Tab:AddButton({
+    Name = "Demonic Hub V2 (key)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Alan0947383/Demonic-HUB-V2/main/S-C-R-I-P-T.lua",true))()
+        print("Button pressed")
+    end   
+})
+
 local Main6Tab = Window:MakeTab({
     Name = "RP Games",
     Icon = "rbxassetid://4483345998",
@@ -584,14 +644,6 @@ local Section = Main6Tab:AddSection({
 })
 
 Main6Tab:AddButton({
-    Name = "Syn's Scripts",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/kureu/Roblox-T.R.D-Camp-Script/main/Roblox%20T.R.D%20Camp%20Script"))();
-        print("Button pressed")
-    end   
-})
-
-Main6Tab:AddButton({
     Name = "Vyra",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/kureu/Roblox-T.R.D-Camp-Script/main/Roblox%20T.R.D%20Camp%20Script"))();
@@ -600,8 +652,8 @@ Main6Tab:AddButton({
 })
 
 OrionLib:MakeNotification({
-    Name = "Welcome!",
-    Content = "Appreciate it you chose us.",
+    Name = "Thanks you choosing us!",
+    Content = "We are an unknown and undercover private company that provides exploits for the Roblox community.",
     Image = "rbxassetid://4483345998",
-    Time = 5
+    Time = 10
 })
