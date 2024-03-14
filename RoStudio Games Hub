@@ -485,6 +485,18 @@ Main3Tab:AddButton({
     end   
 })
 
+local Section = Main3Tab:AddSection({
+    Name = "Doors"
+})
+
+Main3Tab:AddButton({
+    Name = "APPLE HUB",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ImTienNguyenZ/AppleHubOnTop/main/Loader.lua"))() 
+    end   
+})
+
 local Main4Tab = Window:MakeTab({
     Name = "Stories",
     Icon = "rbxassetid://164965053941",
@@ -597,6 +609,26 @@ Main5Tab:AddButton({
     Name = "Demonic Hub V2 (key)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Alan0947383/Demonic-HUB-V2/main/S-C-R-I-P-T.lua",true))()
+        print("Button pressed")
+    end   
+})
+
+local Section = Main5Tab:AddSection({
+    Name = "Elemental Power Tycoon"
+})
+
+Main5Tab:AddButton({
+    Name = "NotInfected Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FreeRobloxScripts/ScriptCreatorToTheRight/main/vinkhang100", true))()
+        print("Button pressed")
+    end   
+})
+
+Main5Tab:AddButton({
+    Name = "ToraisMe Hub",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/Elemental'))()
         print("Button pressed")
     end   
 })
