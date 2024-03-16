@@ -1,11 +1,10 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "RoStudio's Exploit Tools", HidePremium = false, SaveConfig = true, IntroText = "RoStudio's Exploit Tools Presents" })
+local Window = OrionLib:MakeWindow({Name = "Ban Hub's Exploit Tools", HidePremium = false, SaveConfig = true, IntroText = "Ban Hub's Exploit Tools Presents" })
 local MainTab = Window:MakeTab({
     Name = "Home",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
-MainTab:AddLabel("We are pleased that you have chosen to join us today, courtesy of RoStudio Games.")
 
 MainTab:AddButton({
     Name = "Fly GUI",
@@ -685,7 +684,7 @@ Main6Tab:AddButton({
 
 OrionLib:MakeNotification({
     Name = "Thanks you choosing us!",
-    Content = "We are an unknown and undercover private company that provides exploits for the Roblox community.",
+    Content = "Like and Subscribe to the Ban Hub Channel!.",
     Image = "rbxassetid://4483345998",
     Time = 10
 })
