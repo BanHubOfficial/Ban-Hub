@@ -330,22 +330,12 @@ local Section5 = Main3Tab:AddSection({
     Name = "Blade Ball"
 })
 
-Main3Tab:AddLabel("We've put together 3 sets of Auto Parry scripts just for you to have fun with.")
-
-local Section6 = Main3Tab:AddSection({
-    Name = "Auto Parry Option 1"
-})
-
 Main3Tab:AddButton({
     Name = "Auto Parry",
     Callback = function()
         print("Button pressed")
         loadstring(game:HttpGet('https://pastebin.com/raw/WBGNanjD', true))()
     end   
-})
-
-local Section7 = Main3Tab:AddSection({
-    Name = "Auto Parry Option 2"
 })
 
 Main3Tab:AddButton({
@@ -356,20 +346,12 @@ Main3Tab:AddButton({
     end   
 })
 
-local Section8 = Main3Tab:AddSection({
-    Name = "Auto Parry Option 3"
-})
-
 Main3Tab:AddButton({
     Name = "Auto Parry",
     Callback = function()
         print("Button pressed")
         loadstring(game:HttpGet("https://pastebin.com/raw/t2391h1A"))()
     end   
-})
-
-local Section9 = Main3Tab:AddSection({
-    Name = "Hubs"
 })
 
 Main3Tab:AddButton({
@@ -496,6 +478,18 @@ Main3Tab:AddButton({
     end   
 })
 
+local Section3 = Main3Tab:AddSection({
+    Name = "Freeze Tag Extreme"
+})
+
+Main3Tab:AddButton({
+    Name = "Free & Tag Extreme",
+    Callback = function()
+        print("Button pressed")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HeiKe2022/Freeze-Tag-v3-Final/main/Final.lua"))() 
+    end   
+})
+
 local Main4Tab = Window:MakeTab({
     Name = "Stories",
     Icon = "rbxassetid://164965053941",
@@ -556,6 +550,22 @@ Main5Tab:AddButton({
     Name = "Work at a Pizza Place",
     Callback = function()
         loadstring(game:HttpGet('https://pastebin.com/raw/BH2q9Ae7', true))()
+        print("Button pressed")
+    end   
+})
+
+Main5Tab:AddButton({
+    Name = "VIP Items Buyer",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/hussain1323232234/My-Scripts/main/Work%20at%20a%20pizza%20place%20Vip%20Items%20Buyer"))()
+        print("Button pressed")
+    end   
+})
+
+Main5Tab:AddButton({
+    Name = "CH Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxHackingProject/CHHub/main/CHHub.lua"))()
         print("Button pressed")
     end   
 })
@@ -678,6 +688,40 @@ Main6Tab:AddButton({
     Name = "Vyra",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/kureu/Roblox-T.R.D-Camp-Script/main/Roblox%20T.R.D%20Camp%20Script"))();
+        print("Button pressed")
+    end   
+})
+
+local Main7Tab = Window:MakeTab({
+    Name = "Competiteve",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local Section = Main7Tab:AddSection({
+    Name = "Funky Friday"
+})
+
+Main7Tab:AddButton({
+    Name = "Funky Friday Mobile",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/RandomScript/main/FunkyFridayMobile"))()
+        print("Button pressed")
+    end   
+})
+
+Main7Tab:AddButton({
+    Name = "Funky Friday: Auto Player",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ShowerHead-FluxTeam/scripts/main/funky-friday-autoplay"))()
+        print("Button pressed")
+    end   
+})
+
+Main7Tab:AddButton({
+    Name = "Funky Friday: PB",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Zivixian/FunkyFriday/main/ProjectBishopUpdated.lua"))()
         print("Button pressed")
     end   
 })
