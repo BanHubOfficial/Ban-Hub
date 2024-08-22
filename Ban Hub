@@ -698,34 +698,6 @@ local Main7Tab = Window:MakeTab({
     PremiumOnly = false
 })
 
-local Section = Main7Tab:AddSection({
-    Name = "Funky Friday"
-})
-
-Main7Tab:AddButton({
-    Name = "Funky Friday Mobile",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/RandomScript/main/FunkyFridayMobile"))()
-        print("Button pressed")
-    end   
-})
-
-Main7Tab:AddButton({
-    Name = "Funky Friday: Auto Player",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ShowerHead-FluxTeam/scripts/main/funky-friday-autoplay"))()
-        print("Button pressed")
-    end   
-})
-
-Main7Tab:AddButton({
-    Name = "Funky Friday: PB",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Zivixian/FunkyFriday/main/ProjectBishopUpdated.lua"))()
-        print("Button pressed")
-    end   
-})
-
 OrionLib:MakeNotification({
     Name = "Thanks you choosing us!",
     Content = "Like and Subscribe to the Ban Hub Channel!.",
