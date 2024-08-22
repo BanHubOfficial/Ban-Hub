@@ -692,12 +692,6 @@ Main6Tab:AddButton({
     end   
 })
 
-local Main7Tab = Window:MakeTab({
-    Name = "Competiteve",
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = false
-})
-
 OrionLib:MakeNotification({
     Name = "Thanks you choosing us!",
     Content = "Like and Subscribe to the Ban Hub Channel!.",
