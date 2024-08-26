@@ -48,3 +48,66 @@ local Button = MainTab:CreateButton({
             loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "Teleport GUI",
+   Callback = function()
+            loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Speed GUI",
+   Callback = function()
+            loadstring(game:HttpGet('https://pastebin.com/raw/QXugUKCE'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Infinite Jump",
+   Callback = function()
+            loadstring(game:HttpGet('https://pastebin.com/raw/2NBDvQ73'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Highlight ESP",
+   Callback = function()
+            loadstring(game:HttpGet('https://pastebin.com/raw/7K1Jhmck'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Keyboard for Mobile",
+   Callback = function()
+            loadstring(game:HttpGet('https://pastebin.com/raw/cVZ9teYu'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Anti-AFK",
+   Callback = function()
+            loadstring(game:HttpGet('https://pastebin.com/raw/EkRTvJC4'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Noclip",
+   Callback = function()
+            loadstring(game:HttpGet('https://pastebin.com/raw/8fxrxv9X'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "Infiniteyield",
+   Callback = function()
+            loadstring(game:HttpGet('https://pastebin.com/raw/M6uvCBjR'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
+   Name = "View Chatlogs",
+   Callback = function()
+            loadstring(game:HttpGet('https://pastebin.com/raw/stggPUBM'))()
+   end,
+})
