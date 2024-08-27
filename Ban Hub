@@ -1,3 +1,13 @@
 local AuraIS = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-Y/main/Libraries/AuraIS/Main"))()
-local SectionDemo = TabDemo:CreateSection("Section 1" --[[ section title ]], "Normal") -- Normal
-local SecSectionDemo = TabDemo:CreateSection("Section 2" -- [[ section title ]], "Foldable") -- Foldable
+
+local Library = AuraIS:CreateLibrary({
+    Name = "Example",
+    Icon = "rbxassetid://12974454446"
+})
+
+local TabDemo = Library:CreateTab({
+    Title = "Test"
+})
+local SecTabDemo = Library:CreateTab("Hi", "rbxassetid://12974454446")
+
+local SectionDemo = TabDemo:CreateSection("Section 1", "Normal") -- Normal
