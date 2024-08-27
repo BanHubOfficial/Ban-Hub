@@ -1,13 +1,19 @@
 local AuraIS = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-Y/main/Libraries/AuraIS/Main"))()
 
 local Library = AuraIS:CreateLibrary({
-    Name = "Example",
+    Name = "Ban Hub",
     Icon = "rbxassetid://12974454446"
 })
 
 local TabDemo = Library:CreateTab({
-    Title = "Test"
+    Title = "Home"
 })
-local SecTabDemo = Library:CreateTab("Hi", "rbxassetid://12974454446")
 
-local SectionDemo = TabDemo:CreateSection("Section 1", "Normal") -- Normal
+local SectionDemo = TabDemo:CreateSection("Useful Tools", "Normal") -- Normal
+
+local ButtonDemo = SectionDemo:CreateButton({
+    Name = "Fly GUI",
+    Callback = function()
+        print("Button 1 clicked")
+    end,
+})
