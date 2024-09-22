@@ -1,11 +1,11 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Ban Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "BANHUB"})
-local Tab = Window:MakeTab({
+local MainTab = Window:MakeTab({
 	Name = "Home",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-local Section = Tab:AddSection({
+local MainSection = Tab:AddSection({
 	Name = "Tools"
 })
 MainTab:AddButton({
