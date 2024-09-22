@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Ban Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Ban Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "BANHUB"})
 local Tab = Window:MakeTab({
 	Name = "Home",
 	Icon = "rbxassetid://4483345998",
@@ -8,17 +8,74 @@ local Tab = Window:MakeTab({
 local Section = Tab:AddSection({
 	Name = "Tools"
 })
-Tab:AddButton({
-	Name = "Fly GUI",
-	Callback = function()
-      		print("button pressed")
+MainTab:AddButton({
+    Name = "Fly GUI",
+    Callback = function()
+        print("Button pressed")
 loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
-  	end    
+    end
 })
-Tab:AddButton({
-	Name = "Speed GUI",
-	Callback = function()
-      		print("button pressed")
-loadstring(game:HttpGet(("https://pastebin.com/raw/QXugUKCE")))()
-  	end    
+
+MainTab:AddButton({
+    Name = "Teleport GUI",
+    Callback = function()
+        print("Button pressed")
+loadstring(game:HttpGet("https://pastebin.com/raw/YNVbeqPy"))()
+    end
+})
+
+MainTab:AddButton({
+    Name = "Speed GUI",
+    Callback = function()
+        print("Button pressed")
+loadstring(game:HttpGet("https://pastebin.com/raw/QXugUKCE"))()
+    end
+})
+
+MainTab:AddButton({
+    Name = "Infinite Jump",
+    Callback = function()
+        print("Button pressed")
+loadstring(game:HttpGet("https://pastebin.com/raw/2NBDvQ73"))()
+    end
+})
+
+MainTab:AddButton({
+    Name = "Highlight ESP",
+    Callback = function()
+        print("Button pressed")
+loadstring(game:HttpGet('https://pastebin.com/raw/7K1Jhmck', true))()
+    end
+})
+
+MainTab:AddButton({
+    Name = "Keyboard for Mobile",
+    Callback = function()
+        print("Button pressed")
+loadstring(game:HttpGet('https://pastebin.com/raw/cVZ9teYu', true))()
+    end
+})
+
+MainTab:AddButton({
+    Name = "Anti-AFK",
+    Callback = function()
+        print("Button pressed")
+loadstring(game:HttpGet('https://pastebin.com/raw/EkRTvJC4', true))()
+    end
+})
+
+MainTab:AddButton({
+    Name = "Noclip",
+    Callback = function()
+        print("Button pressed")
+loadstring(game:HttpGet('https://pastebin.com/raw/8fxrxv9X', true))()
+    end
+})
+
+MainTab:AddButton({
+    Name = "Infiniteyield",
+    Callback = function()
+        print("Button pressed")
+loadstring(game:HttpGet('https://pastebin.com/raw/M6uvCBjR', true))()
+    end
 })
